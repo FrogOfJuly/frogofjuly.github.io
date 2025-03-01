@@ -10,6 +10,9 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
+      with:
+        submodules: 'theme'
+        token: ${{ secrets.PERSONAL_TOKEN }}
     - name: Set up OCaml
       uses: ocaml/setup-ocaml@v3.2.10
       with:
