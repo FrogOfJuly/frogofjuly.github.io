@@ -32,7 +32,7 @@
               <fr:day>1</fr:day>
             </fr:date>
             <fr:authors />
-            <fr:meta name="external">
+            <fr:meta name="github">
               <fr:link type="external" href="https://www.github.com/FrogOfJuly">github</fr:link>
             </fr:meta>
             <fr:meta name="institution">
@@ -41,7 +41,7 @@
             <fr:meta name="position">Doctoral Researcher</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>PhD student at Turku University.</fr:p>
+            <fr:p>PhD student at Turku University, my <fr:link type="external" href="https://www.github.com/FrogOfJuly">github</fr:link> https://www.github.com/FrogOfJuly</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
