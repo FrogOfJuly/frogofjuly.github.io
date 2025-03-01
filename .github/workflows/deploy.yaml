@@ -17,6 +17,7 @@ jobs:
     - name: Setup Forester
       run : |
         opam install forester
+        eval $(opam env)
         forester build forest.toml
     - name: Deploy pages
       uses: peaceiris/actions-gh-pages@v4.0.0
