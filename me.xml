@@ -13,7 +13,7 @@
       <fr:day>1</fr:day>
     </fr:date>
     <fr:authors />
-    <fr:meta name="external">
+    <fr:meta name="github">
       <fr:link type="external" href="https://github.com/FrogOfJuly">github</fr:link>
     </fr:meta>
     <fr:meta name="institution">
