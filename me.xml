@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="default.xsl"?>
+<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+  <fr:frontmatter>
+    <fr:anchor>245</fr:anchor>
+    <fr:addr type="user">me</fr:addr>
+    <fr:route>me.xml</fr:route>
+    <fr:title text="Kirill Golubev">Kirill Golubev</fr:title>
+    <fr:taxon>Person</fr:taxon>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>1</fr:day>
+    </fr:date>
+    <fr:authors />
+    <fr:meta name="external">
+      <fr:link type="external" href="https://github.com/FrogOfJuly">github</fr:link>
+    </fr:meta>
+    <fr:meta name="institution">
+      <fr:link type="external" href="https://www.utu.fi/en/people/kirill-golubev">utu</fr:link>
+    </fr:meta>
+    <fr:meta name="position">Doctoral Researcher</fr:meta>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <fr:p>PhD student at Turku University.</fr:p>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Backlinks">Backlinks</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>246</fr:anchor>
+            <fr:addr type="user">index</fr:addr>
+            <fr:route>index.xml</fr:route>
+            <fr:title text="Home">Home</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Welcome!
+  <fr:ul><fr:li><fr:link type="local" href="me.xml" addr="me" title="Kirill Golubev">About me</fr:link></fr:li></fr:ul></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
