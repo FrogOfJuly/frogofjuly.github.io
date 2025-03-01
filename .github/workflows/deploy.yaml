@@ -1,4 +1,8 @@
-name: Deploy to GitHub pages
+name: Build to gh-pages branch
+
+permissions:
+  contents: write
+
 on:
   pull_request:
     branches: [ main ]
@@ -22,6 +26,8 @@ jobs:
         opam install forester
         eval $(opam env)
         forester build forest.toml
+    - name: Remove gitignore
+      run: rm ./.gitignore
     - name: Deploy pages
       uses: peaceiris/actions-gh-pages@v4.0.0
       with:
