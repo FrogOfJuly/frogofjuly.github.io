@@ -27,7 +27,10 @@ jobs:
         eval $(opam env)
         forester build forest.toml
     - name: Remove gitignore
-      run: rm ./.gitignore
+      run: | 
+        rm ./.gitignore
+        rm ./theme/.gitignore
+      
     - name: Deploy pages
       uses: peaceiris/actions-gh-pages@v4.0.0
       with:
