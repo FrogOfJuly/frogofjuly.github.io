@@ -2,11 +2,10 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>245</fr:anchor>
+    <fr:anchor>246</fr:anchor>
     <fr:addr type="user">me</fr:addr>
     <fr:route>me.xml</fr:route>
     <fr:title text="Kirill Golubev">Kirill Golubev</fr:title>
-    <fr:taxon>Person</fr:taxon>
     <fr:date>
       <fr:year>2025</fr:year>
       <fr:month>3</fr:month>
@@ -33,7 +32,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>246</fr:anchor>
+            <fr:anchor>247</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Home">Home</fr:title>
