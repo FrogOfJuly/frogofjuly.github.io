@@ -1,53 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-  <fr:frontmatter>
-    <fr:anchor>248</fr:anchor>
-    <fr:addr type="user">index</fr:addr>
-    <fr:route>index.xml</fr:route>
-    <fr:title text="Home">Home</fr:title>
-    <fr:authors />
-  </fr:frontmatter>
-  <fr:mainmatter>
-    <fr:p>Welcome!
-  <fr:ul><fr:li><fr:link type="local" href="me.xml" addr="me" title="Kirill Golubev">About me</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/coffee_cup">Coffee trap solution</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://frogofjuly.github.io/hex-life/">Game of Life on a sphere</fr:link></fr:li></fr:ul></fr:p>
-  </fr:mainmatter>
-  <fr:backmatter>
-    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-      <fr:frontmatter>
-        <fr:title text="Related">Related</fr:title>
-        <fr:authors />
-      </fr:frontmatter>
-      <fr:mainmatter>
-        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-          <fr:frontmatter>
-            <fr:anchor>249</fr:anchor>
-            <fr:addr type="user">me</fr:addr>
-            <fr:route>me.xml</fr:route>
-            <fr:title text="Kirill Golubev">Kirill Golubev</fr:title>
-            <fr:date>
-              <fr:year>2025</fr:year>
-              <fr:month>3</fr:month>
-              <fr:day>1</fr:day>
-            </fr:date>
-            <fr:authors />
-            <fr:meta name="institution">
-              <fr:link type="external" href="https://www.utu.fi/en/people/kirill-golubev">utu</fr:link>
-            </fr:meta>
-            <fr:meta name="institution">
-              <fr:link type="external" href="https://www.github.com/FrogOfJuly">github</fr:link>
-            </fr:meta>
-            <fr:meta name="position">Doctoral Researcher</fr:meta>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <fr:p>I am a PhD student at Turku University.</fr:p>
-          </fr:mainmatter>
-          <fr:backmatter />
-        </fr:tree>
-      </fr:mainmatter>
-      <fr:backmatter />
-    </fr:tree>
-  </fr:backmatter>
-</fr:tree>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>177</fr:anchor><fr:addr>index</fr:addr><fr:route>index.xml</fr:route><fr:title>Home</fr:title></fr:frontmatter><fr:mainmatter><fr:p>
+  Welcome!
+  <fr:ul><fr:li><fr:link
+href="me.xml"
+type="local"
+addr="me">About me</fr:link></fr:li>
+    <fr:li><fr:link
+href="https://github.com/FrogOfJuly/coffee_cup"
+type="external">Coffee trap solution</fr:link></fr:li>
+    <fr:li><fr:link
+href="https://frogofjuly.github.io/hex-life/"
+type="external">Game of Life on a sphere</fr:link></fr:li>
+    <fr:li><fr:link
+href="https://github.com/FrogOfJuly/BloodMage_DnDClass/blob/main/output/main.pdf"
+type="external">Blood Mage class for DnD</fr:link></fr:li></fr:ul></fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related><fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="false"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>176</fr:anchor><fr:addr>me</fr:addr><fr:route>me.xml</fr:route><fr:title>Kirill Golubev</fr:title><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>1</fr:day></fr:date><fr:meta
+name="institution"><fr:link
+href="https://www.utu.fi/en/people/kirill-golubev"
+type="external">utu</fr:link></fr:meta><fr:meta
+name="institution"><fr:link
+href="https://www.github.com/FrogOfJuly"
+type="external">github</fr:link></fr:meta><fr:meta
+name="position">Doctoral Researcher</fr:meta></fr:frontmatter><fr:mainmatter><fr:p>I am a PhD student at Turku University.</fr:p></fr:mainmatter></fr:tree></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>

@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
-<fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-  <fr:frontmatter>
-    <fr:anchor>245</fr:anchor>
-    <fr:addr type="user">frj-0001</fr:addr>
-    <fr:route>frj-0001.xml</fr:route>
-    <fr:title text="Asteroid market">Asteroid market</fr:title>
-    <fr:date>
-      <fr:year>2025</fr:year>
-      <fr:month>3</fr:month>
-      <fr:day>4</fr:day>
-    </fr:date>
-    <fr:authors />
-  </fr:frontmatter>
-  <fr:mainmatter>
-    <fr:p>You go through the upper ring of the Terminus on the orbit of Earth. Your magnetic boots proudly clank with each step, while you yearn exploration.</fr:p>
-    <fr:p>You path lies along the main street of the upper ring and among cozy bars, insanely expensive restaurants and capsule hotels. Suddenly, you both hear and see as well as smell the place of immense thrill and ardour. Some feverish obsession pulls people in an open-windowed room towards the screen with graphs and piecharts. They shake their fists, pull their hair and growl like animals.</fr:p>
-    <fr:p>While looking for an explanation you read the sign: "Casiroid: The fastest asteroid reports". You start to suspect the answer and focus on the charts. They feature carbon, nitrogen, various metals and other elements and compounds alongside the prices. This place surely looks like some unholy child spawned by a happy union between a casino and a commodity market.</fr:p>
-    <fr:p>Judging by the timer on the wall asteroid processing events are quite frequent. You look at your calendar and mark the them. You need money and gambling sounds very appealing way to make some.</fr:p>
-  </fr:mainmatter>
-  <fr:backmatter />
-</fr:tree>
+<fr:tree
+xmlns:fr="http://www.jonmsterling.com/jms-005P.xml"
+toc="true"
+numbered="true"
+show-heading="true"
+show-metadata="true"
+expanded="true"
+root="false"><fr:frontmatter><fr:anchor>173</fr:anchor><fr:addr>frj-0001</fr:addr><fr:route>frj-0001.xml</fr:route><fr:title>Asteroid market</fr:title><fr:date><fr:year>2025</fr:year><fr:month>3</fr:month><fr:day>4</fr:day></fr:date></fr:frontmatter><fr:mainmatter><fr:p>You go through the upper ring of the Terminus on the orbit of Earth. Your magnetic boots proudly clank with each step, while you yearn exploration.</fr:p><fr:p>You path lies along the main street of the upper ring and among cozy bars, insanely expensive restaurants and capsule hotels. Suddenly, you both hear and see as well as smell the place of immense thrill and ardour. Some feverish obsession pulls people in an open-windowed room towards the screen with graphs and piecharts. They shake their fists, pull their hair and growl like animals.</fr:p><fr:p>While looking for an explanation you read the sign: "Casiroid: The fastest asteroid reports". You start to suspect the answer and focus on the charts. They feature carbon, nitrogen, various metals and other elements and compounds alongside the prices. This place surely looks like some unholy child spawned by a happy union between a casino and a commodity market.</fr:p><fr:p>Judging by the timer on the wall asteroid processing events are quite frequent. You look at your calendar and mark the them. You need money and gambling sounds very appealing way to make some.</fr:p></fr:mainmatter><fr:backmatter><fr:contributions></fr:contributions><fr:context></fr:context><fr:related></fr:related><fr:backlinks></fr:backlinks><fr:references></fr:references></fr:backmatter></fr:tree>
