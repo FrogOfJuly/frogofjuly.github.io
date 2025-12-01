@@ -1,3 +1,6 @@
 [forest]
-trees = ["trees" ]                   # The directories in which your trees are stored
+url = "https://frogofjuly.github.io/"
+trees = ["trees"]                   # The directories in which your trees are stored
 # assets = ["assets"]                  # The directories in which your assets are stored
+[forest]
+
