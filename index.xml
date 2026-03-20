@@ -43,7 +43,8 @@
             <fr:meta name="position">Doctoral Researcher</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>I am a PhD student at Turku University. Supervised by <fr:link type="external" href="https://www.utu.fi/en/people/jaakko-jarvi">Jaakko Järvi</fr:link> and <fr:link type="external" href="https://www4.uib.no/en/find-employees/mikhail.barash">Mikhail Barash</fr:link>.</fr:p>
+            <fr:p>I am a PhD student at Turku University.</fr:p>
+            <fr:p>Supervised by <fr:link type="external" href="https://www.utu.fi/en/people/jaakko-jarvi">Jaakko Järvi</fr:link> and <fr:link type="external" href="https://www4.uib.no/en/find-employees/mikhail.barash">Mikhail Barash</fr:link>.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
