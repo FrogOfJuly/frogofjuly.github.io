@@ -2,56 +2,22 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>272</fr:anchor>
-    <fr:addr type="user">index</fr:addr>
-    <fr:route>index.xml</fr:route>
-    <fr:title text="Home">Home</fr:title>
+    <fr:anchor>245</fr:anchor>
+    <fr:addr type="user">scar</fr:addr>
+    <fr:route>scar.xml</fr:route>
     <fr:authors />
   </fr:frontmatter>
-  <fr:mainmatter>
-    <fr:p>Welcome!
-  <fr:ul><fr:li><fr:link type="local" href="me.xml" addr="me" title="Kirill Golubev">About me</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/coffee_cup">Coffee trap solution</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://frogofjuly.github.io/hex-life/">Game of Life on a sphere</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/BloodMage_DnDClass/blob/main/output/main.compressed.pdf">Blood Mage class for DnD</fr:link></fr:li>
-    <fr:li>Magic for <fr:link type="local" href="magic_bastionland.xml" addr="magic_bastionland" title="Recap of Mythic Bastionland">Bastionland</fr:link></fr:li></fr:ul></fr:p>
-  </fr:mainmatter>
+  <fr:mainmatter />
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:title text="Related">Related</fr:title>
+        <fr:title text="Backlinks">Backlinks</fr:title>
         <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>273</fr:anchor>
-            <fr:addr type="user">me</fr:addr>
-            <fr:route>me.xml</fr:route>
-            <fr:title text="Kirill Golubev">Kirill Golubev</fr:title>
-            <fr:date>
-              <fr:year>2025</fr:year>
-              <fr:month>3</fr:month>
-              <fr:day>1</fr:day>
-            </fr:date>
-            <fr:authors />
-            <fr:meta name="institution">
-              <fr:link type="external" href="https://www.utu.fi/en/people/kirill-golubev">utu</fr:link>
-            </fr:meta>
-            <fr:meta name="institution">
-              <fr:link type="external" href="https://www.github.com/FrogOfJuly">github</fr:link>
-            </fr:meta>
-            <fr:meta name="position">Doctoral Researcher</fr:meta>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <fr:p>I am a PhD student at Turku University.</fr:p>
-            <fr:p>Supervised by <fr:link type="external" href="https://www.utu.fi/en/people/jaakko-jarvi">Jaakko Järvi</fr:link> and <fr:link type="external" href="https://www4.uib.no/en/find-employees/mikhail.barash">Mikhail Barash</fr:link>.</fr:p>
-          </fr:mainmatter>
-          <fr:backmatter />
-        </fr:tree>
-        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-          <fr:frontmatter>
-            <fr:anchor>274</fr:anchor>
+            <fr:anchor>246</fr:anchor>
             <fr:addr type="user">magic_bastionland</fr:addr>
             <fr:route>magic_bastionland.xml</fr:route>
             <fr:title text="Recap of Mythic Bastionland">Recap of Mythic Bastionland</fr:title>

@@ -2,56 +2,83 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>272</fr:anchor>
-    <fr:addr type="user">index</fr:addr>
-    <fr:route>index.xml</fr:route>
-    <fr:title text="Home">Home</fr:title>
+    <fr:anchor>293</fr:anchor>
+    <fr:addr type="user">virtues</fr:addr>
+    <fr:route>virtues.xml</fr:route>
+    <fr:title text="Virtues">Virtues</fr:title>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Welcome!
-  <fr:ul><fr:li><fr:link type="local" href="me.xml" addr="me" title="Kirill Golubev">About me</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/coffee_cup">Coffee trap solution</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://frogofjuly.github.io/hex-life/">Game of Life on a sphere</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/BloodMage_DnDClass/blob/main/output/main.compressed.pdf">Blood Mage class for DnD</fr:link></fr:li>
-    <fr:li>Magic for <fr:link type="local" href="magic_bastionland.xml" addr="magic_bastionland" title="Recap of Mythic Bastionland">Bastionland</fr:link></fr:li></fr:ul></fr:p>
+    <fr:p>There are three virtues for knights: VIGOUR, CLARITY, SPIRIT. 
+  They roll d12 + d6 for each of them and keep the results.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:title text="Related">Related</fr:title>
+        <fr:title text="Backlinks">Backlinks</fr:title>
         <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>273</fr:anchor>
-            <fr:addr type="user">me</fr:addr>
-            <fr:route>me.xml</fr:route>
-            <fr:title text="Kirill Golubev">Kirill Golubev</fr:title>
-            <fr:date>
-              <fr:year>2025</fr:year>
-              <fr:month>3</fr:month>
-              <fr:day>1</fr:day>
-            </fr:date>
+            <fr:anchor>294</fr:anchor>
+            <fr:addr type="user">feats</fr:addr>
+            <fr:route>feats.xml</fr:route>
+            <fr:title text="Feats">Feats</fr:title>
             <fr:authors />
-            <fr:meta name="institution">
-              <fr:link type="external" href="https://www.utu.fi/en/people/kirill-golubev">utu</fr:link>
-            </fr:meta>
-            <fr:meta name="institution">
-              <fr:link type="external" href="https://www.github.com/FrogOfJuly">github</fr:link>
-            </fr:meta>
-            <fr:meta name="position">Doctoral Researcher</fr:meta>
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>I am a PhD student at Turku University.</fr:p>
-            <fr:p>Supervised by <fr:link type="external" href="https://www.utu.fi/en/people/jaakko-jarvi">Jaakko Järvi</fr:link> and <fr:link type="external" href="https://www4.uib.no/en/find-employees/mikhail.barash">Mikhail Barash</fr:link>.</fr:p>
+            <fr:p>Smite - righteous fury. Use before rolling a melee Attack: attack gains either +d12 or Blast. Pass a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> or become <fr:link type="local" href="fatigue.xml" addr="fatigue" title="Fatigue">Fatigued</fr:link>.</fr:p>
+            <fr:p>Focus - exploit an opening. Use after rolling an Attack: perform a gambit without using a die. Pass a CLA Save or become Fatigued.</fr:p>
+            <fr:p>Deny - rebuff an attack. Use after an Attack roll against you or an ally within arm's reach, discard one Attack die from the roll. Pass a SPI Save or become Fatigued.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>274</fr:anchor>
+            <fr:anchor>295</fr:anchor>
+            <fr:addr type="user">gambits</fr:addr>
+            <fr:route>gambits.xml</fr:route>
+            <fr:title text="Gambits">Gambits</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Attacker may discard an number of Attack dice of 4 or higher to perform Gambits, each causing one of the effects below. The affected foe must be a target of the original attack.</fr:p>
+            <fr:p>For Gambits other than Bolster and Move the target receives a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">SAVE</fr:link> to ignore the effects.
+
+  <fr:ul><fr:li>Bolster the Attack for +1 total Damage</fr:li>
+    <fr:li>Move after the Attack, even if you already moved or are unable to move</fr:li>
+    <fr:li>Repel a foe away from you</fr:li>
+    <fr:li>Stop a foe from moving next turn</fr:li>
+    <fr:li><fr:link type="local" href="impaired.xml" addr="impaired" title="Impaired">Impair</fr:link> a weapon on their next turn</fr:li>
+    <fr:li>Trap a shield until you next turn</fr:li>
+    <fr:li>Dismount a foe</fr:li>
+    <fr:li>Secret 8th thing with similar level of impact</fr:li></fr:ul>
+
+  If a die of 8 or higher is used in melee then a Strong Gambit is performed and the attacker chooses one of the following:
+
+  <fr:ul><fr:li>No <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> is granted to the target</fr:li>
+    <fr:li>Greater effect such as disarming an item, breaking a wooden shield or weapon, or removing a helm. This does not increase the Damage from Bolster.</fr:li></fr:ul></fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>296</fr:anchor>
+            <fr:addr type="user">guard</fr:addr>
+            <fr:route>guard.xml</fr:route>
+            <fr:title text="Guard">Guard</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Guard is a "refillable hp" which is reduced before damage reduces <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">vigour</fr:link>.</fr:p>
+            <fr:p>Restored fully upon a moment of piece after the danger has passed.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>297</fr:anchor>
             <fr:addr type="user">magic_bastionland</fr:addr>
             <fr:route>magic_bastionland.xml</fr:route>
             <fr:title text="Recap of Mythic Bastionland">Recap of Mythic Bastionland</fr:title>
@@ -88,6 +115,19 @@
   If they lose half or more of their remaining <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> it is a Mortal Wound. Mortally Wounded targets are down and dying. They die if left untended for an hour, but can be patched up in a few moments.
 
   If Damage reduces the target's <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> to 0, the are Slain.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>298</fr:anchor>
+            <fr:addr type="user">saves</fr:addr>
+            <fr:route>saves.xml</fr:route>
+            <fr:title text="Saves">Saves</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>To pass a Save, roll a d20 to be equal or below to relevant <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">Virtue</fr:link>.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
