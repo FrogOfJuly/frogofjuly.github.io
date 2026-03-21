@@ -1,0 +1,27 @@
+\title{Gambits}
+
+\p{
+  Attacker may discard an number of Attack dice of 4 or higher to perform Gambits, each causing one of the effects below. The affected foe must be a target of the original attack.
+}
+
+\p{
+  For Gambits other than Bolster and Move the target receives a [VIG](virtues) [SAVE](saves) to ignore the effects.
+
+  \ul{
+    \li{Bolster the Attack for +1 total Damage}
+    \li{Move after the Attack, even if you already moved or are unable to move}
+    \li{Repel a foe away from you}
+    \li{Stop a foe from moving next turn}
+    \li{[Impair](impaired) a weapon on their next turn}
+    \li{Trap a shield until you next turn}
+    \li{Dismount a foe}
+    \li{Secret 8th thing with similar level of impact}
+  }
+
+  If a die of 8 or higher is used in melee then a Strong Gambit is performed and the attacker chooses one of the following:
+
+  \ul{
+    \li{No [Save](saves) is granted to the target}
+    \li{Greater effect such as disarming an item, breaking a wooden shield or weapon, or removing a helm. This does not increase the Damage from Bolster.}
+  }
+}

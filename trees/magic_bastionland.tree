@@ -1,0 +1,44 @@
+\title{Magic for Bastionland}
+\title{Recap of Mythic Bastionland}
+
+\p{Specifics of Combat.}
+
+\p{
+  A turn is enough time to Move and then perform an Action, always in that order.
+}\p{
+  Players normally take the first turn of combat, discussing their plan and acting in any order they wish.
+}\p{
+  Characters who were not readied for combat must pass a [CLA](virtues) [Save](saves) or miss the first turn.
+}\p{
+  Non-player characters react in a way that feels appropriate for current context. 
+
+  When uncertain, a character makes a [SPI](virtues) to avoid an unfavourable reaction.
+}\p{
+  Feats are special actions known by Knights can be performed as [described](feats). Using Feats risks the Knight becoming [Fatigued](fatigue) which prevents them from using further Feats until they rest.
+}\p{
+  Take the Action dice noted on your weapon(s), shield, and granted by bonuses.
+
+  Go through the following steps in order:
+
+  \ul{
+    \li{All combatants attacking the same target roll their dice at the ame time.}
+    \li{If the target or their nearby allies can [Deny](feats) the may use it.}
+    \li{Attackers amy perform [Gambits](gambits).}
+    \li{Take the hightest die remaining.}
+    \li{Add extra Damage from attackers who are [Bolstering](gambits) the Attack.}
+    \li{Subtract the target's total Armour score.}
+    \li{The Attack causes that much Damage.}
+  }
+}\p{
+  The attack's Damage is deducted from the target's [GD](guard). 
+  
+  If the have at least 1[GD](guard) remaining then they Evade the Attack. 
+  
+  If it leaves them with exactly 0[GD](guard) then they gain a [Scar](scar).
+
+  If exceeds the target's [GD](guard), the excess is deducted from [VIG](virtues) and they are [Wounded](wounded).
+
+  If they lose half or more of their remaining [VIG](virtues) it is a Mortal Wound. Mortally Wounded targets are down and dying. They die if left untended for an hour, but can be patched up in a few moments.
+
+  If Damage reduces the target's [VIG](virtues) to 0, the are Slain.
+}
