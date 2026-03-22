@@ -70,7 +70,7 @@
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>Specifics of Combat.</fr:p>
+            <fr:p>Specifics of Combat of the wonderful system of <fr:link type="external" href="https://chrismcdee.itch.io/mythic-bastionland">"Mythic Bastionland"</fr:link></fr:p>
             <fr:p>A turn is enough time to Move and then perform an Action, always in that order.</fr:p>
             <fr:p>Players normally take the first turn of combat, discussing their plan and acting in any order they wish.</fr:p>
             <fr:p>Characters who were not readied for combat must pass a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">CLA</fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> or miss the first turn.</fr:p>
