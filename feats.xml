@@ -9,9 +9,9 @@
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Smite - righteous fury. Use before rolling a melee Attack: attack gains either +d12 or Blast. Pass a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> or become <fr:link type="local" href="fatigue.xml" addr="fatigue" title="Fatigue">Fatigued</fr:link>.</fr:p>
-    <fr:p>Focus - exploit an opening. Use after rolling an Attack: perform a gambit without using a die. Pass a CLA Save or become Fatigued.</fr:p>
-    <fr:p>Deny - rebuff an attack. Use after an Attack roll against you or an ally within arm's reach, discard one Attack die from the roll. Pass a SPI Save or become Fatigued.</fr:p>
+    <fr:p>Smite - righteous fury. Use before rolling a melee Attack: attack gains either +d12 or Blast. Pass a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> or become <fr:link type="local" href="fatigue.xml" addr="fatigue" title="Fatigue">Fatigued</fr:link>.</fr:p>
+    <fr:p>Focus - exploit an opening. Use after rolling an Attack: perform a gambit without using a die. Pass a <fr:strong>CLA</fr:strong> Save or become Fatigued.</fr:p>
+    <fr:p>Deny - rebuff an attack. Use after an Attack roll against you or an ally within arm's reach, discard one Attack die from the roll. Pass a <fr:strong>SPI</fr:strong> Save or become Fatigued.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -58,9 +58,9 @@
             <fr:p>Specifics of Combat of the wonderful system of <fr:link type="external" href="https://chrismcdee.itch.io/mythic-bastionland">"Mythic Bastionland"</fr:link></fr:p>
             <fr:p>A turn is enough time to Move and then perform an Action, always in that order.</fr:p>
             <fr:p>Players normally take the first turn of combat, discussing their plan and acting in any order they wish.</fr:p>
-            <fr:p>Characters who were not readied for combat must pass a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">CLA</fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> or miss the first turn.</fr:p>
+            <fr:p>Characters who were not readied for combat must pass a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>CLA</fr:strong></fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> or miss the first turn.</fr:p>
             <fr:p>Non-player characters react in a way that feels appropriate for current context.</fr:p>
-            <fr:p>When uncertain, a character makes a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">SPI</fr:link> to avoid an unfavourable reaction.</fr:p>
+            <fr:p>When uncertain, a character makes a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>SPI</fr:strong></fr:link> to avoid an unfavourable reaction.</fr:p>
             <fr:p>Feats are special actions known by Knights can be performed as <fr:link type="local" href="feats.xml" addr="feats" title="Feats">described</fr:link>. Using Feats risks the Knight becoming <fr:link type="local" href="fatigue.xml" addr="fatigue" title="Fatigue">Fatigued</fr:link> which prevents them from using further Feats until they rest.</fr:p>
             <fr:p>Take the Action dice noted on your weapon(s), shield, and granted by bonuses.
 
@@ -76,9 +76,9 @@
             <fr:p>The attack's Damage is deducted from the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:p>
             <fr:p>If the have at least 1<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> remaining then they Evade the Attack.</fr:p>
             <fr:p>If it leaves them with exactly 0<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> then they gain a <fr:link type="local" href="scar.xml" addr="scar" title="Scar">Scar</fr:link>.</fr:p>
-            <fr:p>If exceeds the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>, the excess is deducted from <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> and they are wounded.</fr:p>
-            <fr:p>If they lose half or more of their remaining <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> it is a Mortal Wound. Mortally Wounded targets are down and dying. They die if left untended for an hour, but can be patched up in a few moments.</fr:p>
-            <fr:p>If Damage reduces the target's <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> to 0, the are Slain.</fr:p>
+            <fr:p>If exceeds the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>, the excess is deducted from <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link> and they are wounded.</fr:p>
+            <fr:p>If they lose half or more of their remaining <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link> it is a Mortal Wound. Mortally Wounded targets are down and dying. They die if left untended for an hour, but can be patched up in a few moments.</fr:p>
+            <fr:p>If Damage reduces the target's <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link> to 0, the are Slain.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
@@ -126,16 +126,16 @@
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>There are three virtues for knights: VIGOUR, CLARITY, SPIRIT.</fr:p>
+            <fr:p>There are three virtues for knights: <fr:strong><fr:strong>VIG</fr:strong></fr:strong>OUR, <fr:strong><fr:strong>CLA</fr:strong></fr:strong>RITY, <fr:strong><fr:strong>SPI</fr:strong></fr:strong>RIT.</fr:p>
             <fr:p>They roll d12 + d6 for each of them and keep the results.</fr:p>
             <fr:p>
-              <fr:ul><fr:li>Vigour is restored by consuming Sustenance or spending a full day in warm hospitality.</fr:li>
-    <fr:li>Clarity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
-    <fr:li>Spirit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
+              <fr:ul><fr:li><fr:strong><fr:strong>VIG</fr:strong></fr:strong>our is restored by consuming Sustenance or spending a full day in warm ho<fr:strong>SPI</fr:strong>tality.</fr:li>
+    <fr:li><fr:strong><fr:strong>CLA</fr:strong></fr:strong>rity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
+    <fr:li><fr:strong><fr:strong>SPI</fr:strong></fr:strong>rit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
             </fr:p>
-            <fr:p>At VIG 0 you are Exhausted and cannot Attack if you have moved this turn.</fr:p>
-            <fr:p>At CLA 0 you are <fr:link type="local" href="exposed.xml" addr="exposed" title="Exposed">Exposed</fr:link>.</fr:p>
-            <fr:p>At SPI 0 your attacks are <fr:link type="local" href="impaired.xml" addr="impaired" title="Impaired">Impaired</fr:link>.</fr:p>
+            <fr:p>At <fr:strong>VIG</fr:strong> 0 you are Exhausted and cannot Attack if you have moved this turn.</fr:p>
+            <fr:p>At <fr:strong>CLA</fr:strong> 0 you are <fr:link type="local" href="exposed.xml" addr="exposed" title="Exposed">Exposed</fr:link>.</fr:p>
+            <fr:p>At <fr:strong>SPI</fr:strong> 0 your attacks are <fr:link type="local" href="impaired.xml" addr="impaired" title="Impaired">Impaired</fr:link>.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>

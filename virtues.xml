@@ -9,16 +9,16 @@
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>There are three virtues for knights: VIGOUR, CLARITY, SPIRIT.</fr:p>
+    <fr:p>There are three virtues for knights: <fr:strong><fr:strong>VIG</fr:strong></fr:strong>OUR, <fr:strong><fr:strong>CLA</fr:strong></fr:strong>RITY, <fr:strong><fr:strong>SPI</fr:strong></fr:strong>RIT.</fr:p>
     <fr:p>They roll d12 + d6 for each of them and keep the results.</fr:p>
     <fr:p>
-      <fr:ul><fr:li>Vigour is restored by consuming Sustenance or spending a full day in warm hospitality.</fr:li>
-    <fr:li>Clarity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
-    <fr:li>Spirit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
+      <fr:ul><fr:li><fr:strong><fr:strong>VIG</fr:strong></fr:strong>our is restored by consuming Sustenance or spending a full day in warm ho<fr:strong>SPI</fr:strong>tality.</fr:li>
+    <fr:li><fr:strong><fr:strong>CLA</fr:strong></fr:strong>rity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
+    <fr:li><fr:strong><fr:strong>SPI</fr:strong></fr:strong>rit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
     </fr:p>
-    <fr:p>At VIG 0 you are Exhausted and cannot Attack if you have moved this turn.</fr:p>
-    <fr:p>At CLA 0 you are <fr:link type="local" href="exposed.xml" addr="exposed" title="Exposed">Exposed</fr:link>.</fr:p>
-    <fr:p>At SPI 0 your attacks are <fr:link type="local" href="impaired.xml" addr="impaired" title="Impaired">Impaired</fr:link>.</fr:p>
+    <fr:p>At <fr:strong>VIG</fr:strong> 0 you are Exhausted and cannot Attack if you have moved this turn.</fr:p>
+    <fr:p>At <fr:strong>CLA</fr:strong> 0 you are <fr:link type="local" href="exposed.xml" addr="exposed" title="Exposed">Exposed</fr:link>.</fr:p>
+    <fr:p>At <fr:strong>SPI</fr:strong> 0 your attacks are <fr:link type="local" href="impaired.xml" addr="impaired" title="Impaired">Impaired</fr:link>.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -39,17 +39,17 @@
             <fr:p>There is a unique feel to the Bastionland system of combat. Let's try to get the same feeling from casting spells.</fr:p>
             <fr:p>There is no level-up system in Bastionland, so it is natural to give some resources that will represent spellcaster ability. 
 
- Resource is a set of d6 dice equal to the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">Clarity</fr:link>. Each time you restore <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">Spirit</fr:link> via indulging a Passion, you can regain up to two missing dice from this set.</fr:p>
+ Resource is a set of d6 dice equal to the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>CLA</fr:strong>rity</fr:link>. Each time you restore <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong><fr:strong>SPI</fr:strong></fr:strong>rit</fr:link> via indulging a Passion, you can regain up to two missing dice from this set.</fr:p>
             <fr:p>To cast a spell, a caster rolls any number of dice as an Action from that set and then decides what to cast. Only one spell can be cast per roll.</fr:p>
             <fr:p>Here are some examples of purely combat spells:
- <fr:ul><fr:li>Heat metal: intricate ladder of arcane pulses rapidly heats metal until it glows red hot. Pulses should be chained together carefully, pick no less than three dice with consecutive values. If it is a piece of armour, the wearer takes damage equal to the sum of chosen dice. If it is a weapon, the bearer chooses to drop it or persevere through pain, taking half of the sum of the chosen dice. Any damage from this spell ignores <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:li>
-    <fr:li>Magic missile: identical glowing bolts launch towards chosen targets, piercing bone and muscle. Pick any number of dice with the same value rolled. You can pick a different target for each bolt; it deals damage equal to the rolled value.</fr:li>
-    <fr:li>Hex: curse of misfortune impairs defense and makes the target more vulnerable. Pick three dice that have a value of one. For the remaining combat, anyone who attacks the bearer of this curse can add a die from picked ones to the dice that represent an attack before rolling them. The same die can be used by multiple attacks, but only a single hex can be cast upon any one creature.</fr:li>
-    <fr:li>True Strike: Pick any number of dice, then perform an Attack as usual. You can replace any die of the attack with any die from those you picked.</fr:li>
-    <fr:li>Thunderclap: Pick any number of dice, treat them as if it was a single ranged Attack with Blast property.</fr:li>
-    <fr:li>Shield: Pick two dice and add the smaller rolled value among them to your <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>. If the guard value exceeds it's maximum surplus persists until next time you would restore guard to full.</fr:li></fr:ul></fr:p>
+ <fr:ul><fr:li><fr:strong>Heat metal</fr:strong>: intricate ladder of arcane pulses rapidly heats metal until it glows red hot. Pulses should be chained together carefully, pick no less than three dice with consecutive values. If it is a piece of armour, the wearer takes damage equal to the sum of chosen dice. If it is a weapon, the bearer chooses to drop it or persevere through pain, taking half of the sum of the chosen dice. Any damage from this spell ignores <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:li>
+    <fr:li><fr:strong>Magic missile</fr:strong>: identical glowing bolts launch towards chosen targets, piercing bone and muscle. Pick any number of dice with the same value rolled. You can pick a different target for each bolt; it deals damage equal to the rolled value.</fr:li>
+    <fr:li><fr:strong>Hex</fr:strong>: curse of misfortune impairs defense and makes the target more vulnerable. Pick three dice that have a value of one. For the remaining combat, anyone who attacks the bearer of this curse can add a die from picked ones to the dice that represent an attack before rolling them. The same die can be used by multiple attacks, but only a single hex can be cast upon any one creature.</fr:li>
+    <fr:li><fr:strong>True Strike</fr:strong>: Pick any number of dice, then perform an Attack as usual. You can replace any die of the attack with any die from those you picked.</fr:li>
+    <fr:li><fr:strong>Thunder<fr:strong>CLA</fr:strong>p</fr:strong>: Pick any number of dice, treat them as if it was a single ranged Attack with Blast property.</fr:li>
+    <fr:li><fr:strong>Shield</fr:strong>: Pick two dice and add the smaller rolled value among them to your <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>. If the guard value exceeds it's maximum surplus persists until next time you would restore guard to full.</fr:li></fr:ul></fr:p>
             <fr:p>This system becomes unwieldy very fast, as the time to check the combination for a lot of spells grows in an unpleasant way. Mythic Bastionland is suited for that, as it is very easy to have a small number of spells, as majority of them are lost and forgotten.</fr:p>
-            <fr:p>Also, to add even more agency, caster can roll any number of dice and then choose half(rounded down) and discard the rest. These picked dice can be used to cast spells as if you rolled them. They persist until chosen to be spent, but the total amount of dice can't exceed the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">Clarity</fr:link>. If it is the case at any time, discard until it is no longer the case.</fr:p>
+            <fr:p>Also, to add even more agency, caster can roll any number of dice and then choose half(rounded down) and discard the rest. These picked dice can be used to cast spells as if you rolled them. They persist until chosen to be spent, but the total amount of dice can't exceed the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong><fr:strong>CLA</fr:strong></fr:strong>rity</fr:link>. If it is the case at any time, discard until it is no longer the case.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
@@ -62,9 +62,9 @@
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>Smite - righteous fury. Use before rolling a melee Attack: attack gains either +d12 or Blast. Pass a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> or become <fr:link type="local" href="fatigue.xml" addr="fatigue" title="Fatigue">Fatigued</fr:link>.</fr:p>
-            <fr:p>Focus - exploit an opening. Use after rolling an Attack: perform a gambit without using a die. Pass a CLA Save or become Fatigued.</fr:p>
-            <fr:p>Deny - rebuff an attack. Use after an Attack roll against you or an ally within arm's reach, discard one Attack die from the roll. Pass a SPI Save or become Fatigued.</fr:p>
+            <fr:p>Smite - righteous fury. Use before rolling a melee Attack: attack gains either +d12 or Blast. Pass a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> or become <fr:link type="local" href="fatigue.xml" addr="fatigue" title="Fatigue">Fatigued</fr:link>.</fr:p>
+            <fr:p>Focus - exploit an opening. Use after rolling an Attack: perform a gambit without using a die. Pass a <fr:strong>CLA</fr:strong> Save or become Fatigued.</fr:p>
+            <fr:p>Deny - rebuff an attack. Use after an Attack roll against you or an ally within arm's reach, discard one Attack die from the roll. Pass a <fr:strong>SPI</fr:strong> Save or become Fatigued.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
@@ -78,7 +78,7 @@
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>Attacker may discard an number of Attack dice of 4 or higher to perform Gambits, each causing one of the effects below. The affected foe must be a target of the original attack.</fr:p>
-            <fr:p>For Gambits other than Bolster and Move the target receives a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">SAVE</fr:link> to ignore the effects.
+            <fr:p>For Gambits other than Bolster and Move the target receives a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">SAVE</fr:link> to ignore the effects.
 
   <fr:ul><fr:li>Bolster the Attack for +1 total Damage</fr:li>
     <fr:li>Move after the Attack, even if you already moved or are unable to move</fr:li>
@@ -105,7 +105,7 @@
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>Guard is a "refillable hp" which is reduced before damage reduces <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">vigour</fr:link>.</fr:p>
+            <fr:p>Guard is a "refillable hp" which is reduced before damage reduces <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong>our</fr:link>.</fr:p>
             <fr:p>Restored fully upon a moment of piece after the danger has passed.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
@@ -122,9 +122,9 @@
             <fr:p>Specifics of Combat of the wonderful system of <fr:link type="external" href="https://chrismcdee.itch.io/mythic-bastionland">"Mythic Bastionland"</fr:link></fr:p>
             <fr:p>A turn is enough time to Move and then perform an Action, always in that order.</fr:p>
             <fr:p>Players normally take the first turn of combat, discussing their plan and acting in any order they wish.</fr:p>
-            <fr:p>Characters who were not readied for combat must pass a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">CLA</fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> or miss the first turn.</fr:p>
+            <fr:p>Characters who were not readied for combat must pass a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>CLA</fr:strong></fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> or miss the first turn.</fr:p>
             <fr:p>Non-player characters react in a way that feels appropriate for current context.</fr:p>
-            <fr:p>When uncertain, a character makes a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">SPI</fr:link> to avoid an unfavourable reaction.</fr:p>
+            <fr:p>When uncertain, a character makes a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>SPI</fr:strong></fr:link> to avoid an unfavourable reaction.</fr:p>
             <fr:p>Feats are special actions known by Knights can be performed as <fr:link type="local" href="feats.xml" addr="feats" title="Feats">described</fr:link>. Using Feats risks the Knight becoming <fr:link type="local" href="fatigue.xml" addr="fatigue" title="Fatigue">Fatigued</fr:link> which prevents them from using further Feats until they rest.</fr:p>
             <fr:p>Take the Action dice noted on your weapon(s), shield, and granted by bonuses.
 
@@ -140,9 +140,9 @@
             <fr:p>The attack's Damage is deducted from the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:p>
             <fr:p>If the have at least 1<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> remaining then they Evade the Attack.</fr:p>
             <fr:p>If it leaves them with exactly 0<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> then they gain a <fr:link type="local" href="scar.xml" addr="scar" title="Scar">Scar</fr:link>.</fr:p>
-            <fr:p>If exceeds the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>, the excess is deducted from <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> and they are wounded.</fr:p>
-            <fr:p>If they lose half or more of their remaining <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> it is a Mortal Wound. Mortally Wounded targets are down and dying. They die if left untended for an hour, but can be patched up in a few moments.</fr:p>
-            <fr:p>If Damage reduces the target's <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> to 0, the are Slain.</fr:p>
+            <fr:p>If exceeds the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>, the excess is deducted from <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link> and they are wounded.</fr:p>
+            <fr:p>If they lose half or more of their remaining <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link> it is a Mortal Wound. Mortally Wounded targets are down and dying. They die if left untended for an hour, but can be patched up in a few moments.</fr:p>
+            <fr:p>If Damage reduces the target's <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link> to 0, the are Slain.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
@@ -176,15 +176,15 @@ cannot Mortally Wound or Slay the victim.
 Scars are only gained through real, deadly
 combat, not training or bloodless duels.</fr:p>
             <fr:p>
-              <fr:ul><fr:li>Distress. A lucky escape: lose d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">SPI</fr:link>.</fr:li>
+              <fr:ul><fr:li>Distress. A lucky escape: lose d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>SPI</fr:strong></fr:link>.</fr:li>
   <fr:li>Disfigurement. A permanent mark: roll 1d6: Eye, Cheek, Neck, Torso, Nose, Jaw. If your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 2 or less, increase by d6.</fr:li>
-  <fr:li>Smash. A sudden spray of blood: lose 1d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link></fr:li>
-  <fr:li>Stun. Pain drowns the senses: lose 1d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">CLA</fr:link>. If your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 4 or less, increase it by 1d6.</fr:li>
-  <fr:li>Rupture. Innards pierced and compressed: lose 2d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link>.</fr:li>
+  <fr:li>Smash. A sudden spray of blood: lose 1d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link></fr:li>
+  <fr:li>Stun. Pain drowns the senses: lose 1d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>CLA</fr:strong></fr:link>. If your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 4 or less, increase it by 1d6.</fr:li>
+  <fr:li>Rupture. Innards pierced and compressed: lose 2d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link>.</fr:li>
   <fr:li>Gouge. Flesh torn from bone: `when you get stitched up, if your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 6 or less, increase it by 1d6.</fr:li>
-  <fr:li>Concussion. A heavy blow numbs the mind: lose 2d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">CLA</fr:link>.</fr:li>
+  <fr:li>Concussion. A heavy blow numbs the mind: lose 2d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>CLA</fr:strong></fr:link>.</fr:li>
   <fr:li>Tear. Something taken in violent struggle, roll 1d6: Nose, Ear, Finger, Thumb, Eye, Chunk of Scalp. When you get patched up, if your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 8 or less, increase it by 1d6.</fr:li>
-  <fr:li>Agony. With a crack, a torturous break: lose 2d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">SPI</fr:link>.</fr:li>
+  <fr:li>Agony. With a crack, a torturous break: lose 2d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>SPI</fr:strong></fr:link>.</fr:li>
   <fr:li>Mutilation. A limb rendered lost or useless, roll 1d6: 1-2 Leg, 3-4 Shield Arm, 5-6 Sword Arm. By next Season you have a prosthetics or have learned to get by, and if your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 10 or less, increase it by 1d6.</fr:li>
   <fr:li>Doom. A cheated death haunts you. If you take a Mortal Wound this Season you are Slain instead.</fr:li>
   <fr:li>Humiliation. A most dolorous stroke: when you achieve revenge, if your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 12 or less, increase it by 1d6.</fr:li></fr:ul>
