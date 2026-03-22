@@ -7,11 +7,11 @@
 }\p{
   Players normally take the first turn of combat, discussing their plan and acting in any order they wish.
 }\p{
-  Characters who were not readied for combat must pass a [CLA](virtues) [Save](saves) or miss the first turn.
+  Characters who were not readied for combat must pass a [\strong{CLA}](virtues) [Save](saves) or miss the first turn.
 }\p{
   Non-player characters react in a way that feels appropriate for current context. 
 }\p{
-  When uncertain, a character makes a [SPI](virtues) to avoid an unfavourable reaction.
+  When uncertain, a character makes a [\strong{SPI}](virtues) to avoid an unfavourable reaction.
 }\p{
   Feats are special actions known by Knights can be performed as [described](feats). Using Feats risks the Knight becoming [Fatigued](fatigue) which prevents them from using further Feats until they rest.
 }\p{
@@ -35,9 +35,9 @@
 }\p{
   If it leaves them with exactly 0[GD](guard) then they gain a [Scar](scar).
 }\p{
-  If exceeds the target's [GD](guard), the excess is deducted from [VIG](virtues) and they are wounded.
+  If exceeds the target's [GD](guard), the excess is deducted from [\strong{VIG}](virtues) and they are wounded.
 }\p{
-  If they lose half or more of their remaining [VIG](virtues) it is a Mortal Wound. Mortally Wounded targets are down and dying. They die if left untended for an hour, but can be patched up in a few moments.
+  If they lose half or more of their remaining [\strong{VIG}](virtues) it is a Mortal Wound. Mortally Wounded targets are down and dying. They die if left untended for an hour, but can be patched up in a few moments.
 }\p{
-  If Damage reduces the target's [VIG](virtues) to 0, the are Slain.
+  If Damage reduces the target's [\strong{VIG}](virtues) to 0, the are Slain.
 }

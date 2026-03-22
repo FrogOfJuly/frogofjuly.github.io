@@ -1,19 +1,19 @@
 \title{Virtues}
 
 \p{
-  There are three virtues for knights: VIGOUR, CLARITY, SPIRIT. 
+  There are three virtues for knights: \strong{\strong{VIG}}OUR, \strong{\strong{CLA}}RITY, \strong{\strong{SPI}}RIT. 
 }\p{
   They roll d12 + d6 for each of them and keep the results.
 }\p{
   \ul{
-    \li{Vigour is restored by consuming Sustenance or spending a full day in warm hospitality.}
-    \li{Clarity is restored by consuming Stimulant or receiving guidance from a Seer.}
-    \li{Spirit is restored by consuming Sacrament or indulging a Passion.}
+    \li{\strong{\strong{VIG}}our is restored by consuming Sustenance or spending a full day in warm ho\strong{SPI}tality.}
+    \li{\strong{\strong{CLA}}rity is restored by consuming Stimulant or receiving guidance from a Seer.}
+    \li{\strong{\strong{SPI}}rit is restored by consuming Sacrament or indulging a Passion.}
   }
 }\p{
-  At VIG 0 you are Exhausted and cannot Attack if you have moved this turn.
+  At \strong{VIG} 0 you are Exhausted and cannot Attack if you have moved this turn.
 }\p{
-  At CLA 0 you are [Exposed](exposed).
+  At \strong{CLA} 0 you are [Exposed](exposed).
 }\p{
-  At SPI 0 your attacks are [Impaired](impaired).
+  At \strong{SPI} 0 your attacks are [Impaired](impaired).
 }

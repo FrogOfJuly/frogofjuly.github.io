@@ -1,13 +1,13 @@
 \title{Feats}
 
 \p{
-  Smite - righteous fury. Use before rolling a melee Attack: attack gains either +d12 or Blast. Pass a [VIG](virtues) [Save](saves) or become [Fatigued](fatigue).
+  Smite - righteous fury. Use before rolling a melee Attack: attack gains either +d12 or Blast. Pass a [\strong{VIG}](virtues) [Save](saves) or become [Fatigued](fatigue).
 }
 
 \p{
-  Focus - exploit an opening. Use after rolling an Attack: perform a gambit without using a die. Pass a CLA Save or become Fatigued.
+  Focus - exploit an opening. Use after rolling an Attack: perform a gambit without using a die. Pass a \strong{CLA} Save or become Fatigued.
 }
 
 \p{
-  Deny - rebuff an attack. Use after an Attack roll against you or an ally within arm's reach, discard one Attack die from the roll. Pass a SPI Save or become Fatigued.
+  Deny - rebuff an attack. Use after an Attack roll against you or an ally within arm's reach, discard one Attack die from the roll. Pass a \strong{SPI} Save or become Fatigued.
 }
