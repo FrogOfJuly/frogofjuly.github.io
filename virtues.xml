@@ -36,20 +36,20 @@
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>There is a unique feel to bastionland system of combat. Let's try to get the same feeling from casting spells.</fr:p>
-            <fr:p>There is not level up system in bastionland, so it is natural to give some resource that will represent spellcaster ability. 
+            <fr:p>There is a unique feel to the Bastionland system of combat. Let's try to get the same feeling from casting spells.</fr:p>
+            <fr:p>There is no level-up system in Bastionland, so it is natural to give some resources that will represent spellcaster ability. 
 
-  Resource being a set of d6 dice equal to value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">Clarity</fr:link>. All spent dice are restored at sunrise.</fr:p>
-            <fr:p>To cast a spell caster rolls any amount of dice as an Action from that set and then decides what to cast. Only one spell can be cast per roll.</fr:p>
-            <fr:p>Here are some examples for purely combat spells:
-  <fr:ul><fr:li>Heat metal: intricate ladder of arcane pulses rapidly heats metal until it glows red hot. Pulses should be chained together carefully, so choose no less than three dice with consecutive values. If it is a piece of armour, wearer takes damage equal to the sum of chosen dice. If it is a weapon, bearer choses to drop it or persevere through pain taking half of the sum of the chosen dice. Any damage from this spell ignores <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:li>
-    <fr:li>Magic missile: identical glowing bolts launch towards chosen targets piercing bone and muscle. Pick any amount of dice with the same value rolled. You can pick different target for each bolt, it deals damage equal to that picked value.</fr:li>
-    <fr:li>Hex: curse of misfortune impairs defense and makes target more vulnerable. Choose three dice that have value of one, for the remaining combat any one who attacks the bearer of this curse can add a die from chosen to dice that represent an attack. The die can be added multiple times, but only a single hex can be cast upon any one creature.</fr:li>
+ Resource is a set of d6 dice equal to the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">Clarity</fr:link>. All spent dice are restored at sunrise.</fr:p>
+            <fr:p>To cast a spell, a caster rolls any number of dice as an Action from that set and then decides what to cast. Only one spell can be cast per roll.</fr:p>
+            <fr:p>Here are some examples of purely combat spells:
+ <fr:ul><fr:li>Heat metal: intricate ladder of arcane pulses rapidly heats metal until it glows red hot. Pulses should be chained together carefully, so choose no less than three dice with consecutive values. If it is a piece of armour, the wearer takes damage equal to the sum of chosen dice. If it is a weapon, the bearer chooses to drop it or persevere through pain, taking half of the sum of the chosen dice. Any damage from this spell ignores <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:li>
+    <fr:li>Magic missile: identical glowing bolts launch towards chosen targets, piercing bone and muscle. Pick any number of dice with the same value rolled. You can pick a different target for each bolt; it deals damage equal to that picked value.</fr:li>
+    <fr:li>Hex: curse of misfortune impairs defense and makes the target more vulnerable. Choose three dice that have a value of one. For the remaining combat, anyone who attacks the bearer of this curse can add a die from the chosen to the dice that represent an attack. The die can be added multiple times, but only a single hex can be cast upon any one creature.</fr:li>
     <fr:li>True Strike: ?? adds modifier for Bolster?</fr:li>
     <fr:li>Mind Sliver: ?? Verbal and Somatic components..? Simple spell damage?</fr:li>
     <fr:li>Thunderclap: ?? with blast</fr:li></fr:ul></fr:p>
-            <fr:p>This system becomes unwieldy very fast, as the time to check combination for a lot of spells grows in an unpleasant way. Mythic Bastionland is suited for that, as it is very easy to have small amount of spells as they are lost and forgotten.</fr:p>
-            <fr:p>Also, to add even more agency, caster can roll any amount of dice and then choose half(rounded down) and discard the rest. These picked dice can be used to cast spells. They persist until spent, but the total amount of dice can't exceed value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">Clarity</fr:link>. If it is the case at any time, discard until it is no longer the case.</fr:p>
+            <fr:p>This system becomes unwieldy very fast, as the time to check the combination for a lot of spells grows in an unpleasant way. Mythic Bastionland is suited for that, as it is very easy to have a small number of spells, as they are lost and forgotten.</fr:p>
+            <fr:p>Also, to add even more agency, caster can roll any number of dice and then choose half(rounded down) and discard the rest. These picked dice can be used to cast spells. They persist until spent, but the total amount of dice can't exceed the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">Clarity</fr:link>. If it is the case at any time, discard until it is no longer the case.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
