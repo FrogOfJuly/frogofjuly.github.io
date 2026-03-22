@@ -2,12 +2,35 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>245</fr:anchor>
+    <fr:anchor>289</fr:anchor>
     <fr:addr type="user">scar</fr:addr>
     <fr:route>scar.xml</fr:route>
+    <fr:title text="Scar">Scar</fr:title>
     <fr:authors />
   </fr:frontmatter>
-  <fr:mainmatter />
+  <fr:mainmatter>
+    <fr:p>Take the die that caused the Scar and roll it
+again, consulting the table below for the
+specific Scar caused.</fr:p>
+    <fr:p>Virtue Loss through Scars is not Damage, so
+cannot Mortally Wound or Slay the victim.
+Scars are only gained through real, deadly
+combat, not training or bloodless duels.</fr:p>
+    <fr:p>
+      <fr:ul><fr:li>Distress. A lucky escape: lose d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">SPI</fr:link>.</fr:li>
+  <fr:li>Disfigurement. A permanent mark: roll 1d6: Eye, Cheek, Neck, Torso, Nose, Jaw. If your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 2 or less, increase by d6.</fr:li>
+  <fr:li>Smash. A sudden spray of blood: lose 1d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link></fr:li>
+  <fr:li>Stun. Pain drowns the senses: lose 1d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">CLA</fr:link>. If your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 4 or less, increase it by 1d6.</fr:li>
+  <fr:li>Rupture. Innards pierced and compressed: lose 2d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link>.</fr:li>
+  <fr:li>Gouge. Flesh torn from bone: `when you get stitched up, if your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 6 or less, increase it by 1d6.</fr:li>
+  <fr:li>Concussion. A heavy blow numbs the mind: lose 2d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">CLA</fr:link>.</fr:li>
+  <fr:li>Tear. Something taken in violent struggle, roll 1d6: Nose, Ear, Finger, Thumb, Eye, Chunk of Scalp. When you get patched up, if your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 8 or less, increase it by 1d6.</fr:li>
+  <fr:li>Agony. With a crack, a torturous break: lose 2d6 <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">SPI</fr:link>.</fr:li>
+  <fr:li>Mutilation. A limb rendered lost or useless, roll 1d6: 1-2 Leg, 3-4 Shield Arm, 5-6 Sword Arm. By next Season you have a prosthetics or have learned to get by, and if your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 10 or less, increase it by 1d6.</fr:li>
+  <fr:li>Doom. A cheated death haunts you. If you take a Mortal Wound this Season you are Slain instead.</fr:li>
+  <fr:li>Humiliation. A most dolorous stroke: when you achieve revenge, if your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 12 or less, increase it by 1d6.</fr:li></fr:ul>
+    </fr:p>
+  </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
@@ -17,7 +40,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>246</fr:anchor>
+            <fr:anchor>290</fr:anchor>
             <fr:addr type="user">magic_bastionland</fr:addr>
             <fr:route>magic_bastionland.xml</fr:route>
             <fr:title text="Recap of Mythic Bastionland">Recap of Mythic Bastionland</fr:title>
@@ -28,9 +51,8 @@
             <fr:p>A turn is enough time to Move and then perform an Action, always in that order.</fr:p>
             <fr:p>Players normally take the first turn of combat, discussing their plan and acting in any order they wish.</fr:p>
             <fr:p>Characters who were not readied for combat must pass a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">CLA</fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> or miss the first turn.</fr:p>
-            <fr:p>Non-player characters react in a way that feels appropriate for current context. 
-
-  When uncertain, a character makes a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">SPI</fr:link> to avoid an unfavourable reaction.</fr:p>
+            <fr:p>Non-player characters react in a way that feels appropriate for current context.</fr:p>
+            <fr:p>When uncertain, a character makes a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">SPI</fr:link> to avoid an unfavourable reaction.</fr:p>
             <fr:p>Feats are special actions known by Knights can be performed as <fr:link type="local" href="feats.xml" addr="feats" title="Feats">described</fr:link>. Using Feats risks the Knight becoming <fr:link type="local" href="fatigue.xml" addr="fatigue" title="Fatigue">Fatigued</fr:link> which prevents them from using further Feats until they rest.</fr:p>
             <fr:p>Take the Action dice noted on your weapon(s), shield, and granted by bonuses.
 
@@ -43,17 +65,49 @@
     <fr:li>Add extra Damage from attackers who are <fr:link type="local" href="gambits.xml" addr="gambits" title="Gambits">Bolstering</fr:link> the Attack.</fr:li>
     <fr:li>Subtract the target's total Armour score.</fr:li>
     <fr:li>The Attack causes that much Damage.</fr:li></fr:ul></fr:p>
-            <fr:p>The attack's Damage is deducted from the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>. 
-  
-  If the have at least 1<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> remaining then they Evade the Attack. 
-  
-  If it leaves them with exactly 0<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> then they gain a <fr:link type="local" href="scar.xml" addr="scar">Scar</fr:link>.
-
-  If exceeds the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>, the excess is deducted from <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> and they are <fr:link type="local" href="wounded.xml" addr="wounded">Wounded</fr:link>.
-
-  If they lose half or more of their remaining <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> it is a Mortal Wound. Mortally Wounded targets are down and dying. They die if left untended for an hour, but can be patched up in a few moments.
-
-  If Damage reduces the target's <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> to 0, the are Slain.</fr:p>
+            <fr:p>The attack's Damage is deducted from the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:p>
+            <fr:p>If the have at least 1<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> remaining then they Evade the Attack.</fr:p>
+            <fr:p>If it leaves them with exactly 0<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> then they gain a <fr:link type="local" href="scar.xml" addr="scar" title="Scar">Scar</fr:link>.</fr:p>
+            <fr:p>If exceeds the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>, the excess is deducted from <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> and they are wounded.</fr:p>
+            <fr:p>If they lose half or more of their remaining <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> it is a Mortal Wound. Mortally Wounded targets are down and dying. They die if left untended for an hour, but can be patched up in a few moments.</fr:p>
+            <fr:p>If Damage reduces the target's <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> to 0, the are Slain.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>291</fr:anchor>
+            <fr:addr type="user">guard</fr:addr>
+            <fr:route>guard.xml</fr:route>
+            <fr:title text="Guard">Guard</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Guard is a "refillable hp" which is reduced before damage reduces <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">vigour</fr:link>.</fr:p>
+            <fr:p>Restored fully upon a moment of piece after the danger has passed.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>292</fr:anchor>
+            <fr:addr type="user">virtues</fr:addr>
+            <fr:route>virtues.xml</fr:route>
+            <fr:title text="Virtues">Virtues</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>There are three virtues for knights: VIGOUR, CLARITY, SPIRIT.</fr:p>
+            <fr:p>They roll d12 + d6 for each of them and keep the results.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>

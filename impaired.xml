@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>275</fr:anchor>
+    <fr:anchor>272</fr:anchor>
     <fr:addr type="user">impaired</fr:addr>
     <fr:route>impaired.xml</fr:route>
     <fr:title text="Impaired">Impaired</fr:title>
@@ -20,7 +20,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>276</fr:anchor>
+            <fr:anchor>273</fr:anchor>
             <fr:addr type="user">gambits</fr:addr>
             <fr:route>gambits.xml</fr:route>
             <fr:title text="Gambits">Gambits</fr:title>
@@ -57,7 +57,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>277</fr:anchor>
+            <fr:anchor>274</fr:anchor>
             <fr:addr type="user">feats</fr:addr>
             <fr:route>feats.xml</fr:route>
             <fr:title text="Feats">Feats</fr:title>

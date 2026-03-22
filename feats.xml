@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>256</fr:anchor>
+    <fr:anchor>252</fr:anchor>
     <fr:addr type="user">feats</fr:addr>
     <fr:route>feats.xml</fr:route>
     <fr:title text="Feats">Feats</fr:title>
@@ -22,7 +22,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>257</fr:anchor>
+            <fr:anchor>253</fr:anchor>
             <fr:addr type="user">fatigue</fr:addr>
             <fr:route>fatigue.xml</fr:route>
             <fr:title text="Fatigue">Fatigue</fr:title>
@@ -35,7 +35,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>258</fr:anchor>
+            <fr:anchor>254</fr:anchor>
             <fr:addr type="user">impaired</fr:addr>
             <fr:route>impaired.xml</fr:route>
             <fr:title text="Impaired">Impaired</fr:title>
@@ -48,7 +48,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>259</fr:anchor>
+            <fr:anchor>255</fr:anchor>
             <fr:addr type="user">magic_bastionland</fr:addr>
             <fr:route>magic_bastionland.xml</fr:route>
             <fr:title text="Recap of Mythic Bastionland">Recap of Mythic Bastionland</fr:title>
@@ -59,9 +59,8 @@
             <fr:p>A turn is enough time to Move and then perform an Action, always in that order.</fr:p>
             <fr:p>Players normally take the first turn of combat, discussing their plan and acting in any order they wish.</fr:p>
             <fr:p>Characters who were not readied for combat must pass a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">CLA</fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> or miss the first turn.</fr:p>
-            <fr:p>Non-player characters react in a way that feels appropriate for current context. 
-
-  When uncertain, a character makes a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">SPI</fr:link> to avoid an unfavourable reaction.</fr:p>
+            <fr:p>Non-player characters react in a way that feels appropriate for current context.</fr:p>
+            <fr:p>When uncertain, a character makes a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">SPI</fr:link> to avoid an unfavourable reaction.</fr:p>
             <fr:p>Feats are special actions known by Knights can be performed as <fr:link type="local" href="feats.xml" addr="feats" title="Feats">described</fr:link>. Using Feats risks the Knight becoming <fr:link type="local" href="fatigue.xml" addr="fatigue" title="Fatigue">Fatigued</fr:link> which prevents them from using further Feats until they rest.</fr:p>
             <fr:p>Take the Action dice noted on your weapon(s), shield, and granted by bonuses.
 
@@ -74,17 +73,12 @@
     <fr:li>Add extra Damage from attackers who are <fr:link type="local" href="gambits.xml" addr="gambits" title="Gambits">Bolstering</fr:link> the Attack.</fr:li>
     <fr:li>Subtract the target's total Armour score.</fr:li>
     <fr:li>The Attack causes that much Damage.</fr:li></fr:ul></fr:p>
-            <fr:p>The attack's Damage is deducted from the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>. 
-  
-  If the have at least 1<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> remaining then they Evade the Attack. 
-  
-  If it leaves them with exactly 0<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> then they gain a <fr:link type="local" href="scar.xml" addr="scar">Scar</fr:link>.
-
-  If exceeds the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>, the excess is deducted from <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> and they are <fr:link type="local" href="wounded.xml" addr="wounded">Wounded</fr:link>.
-
-  If they lose half or more of their remaining <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> it is a Mortal Wound. Mortally Wounded targets are down and dying. They die if left untended for an hour, but can be patched up in a few moments.
-
-  If Damage reduces the target's <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> to 0, the are Slain.</fr:p>
+            <fr:p>The attack's Damage is deducted from the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:p>
+            <fr:p>If the have at least 1<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> remaining then they Evade the Attack.</fr:p>
+            <fr:p>If it leaves them with exactly 0<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> then they gain a <fr:link type="local" href="scar.xml" addr="scar" title="Scar">Scar</fr:link>.</fr:p>
+            <fr:p>If exceeds the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>, the excess is deducted from <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> and they are wounded.</fr:p>
+            <fr:p>If they lose half or more of their remaining <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> it is a Mortal Wound. Mortally Wounded targets are down and dying. They die if left untended for an hour, but can be patched up in a few moments.</fr:p>
+            <fr:p>If Damage reduces the target's <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">VIG</fr:link> to 0, the are Slain.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
@@ -99,7 +93,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>260</fr:anchor>
+            <fr:anchor>256</fr:anchor>
             <fr:addr type="user">fatigue</fr:addr>
             <fr:route>fatigue.xml</fr:route>
             <fr:title text="Fatigue">Fatigue</fr:title>
@@ -112,7 +106,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>261</fr:anchor>
+            <fr:anchor>257</fr:anchor>
             <fr:addr type="user">saves</fr:addr>
             <fr:route>saves.xml</fr:route>
             <fr:title text="Saves">Saves</fr:title>
@@ -125,15 +119,15 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>262</fr:anchor>
+            <fr:anchor>258</fr:anchor>
             <fr:addr type="user">virtues</fr:addr>
             <fr:route>virtues.xml</fr:route>
             <fr:title text="Virtues">Virtues</fr:title>
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>There are three virtues for knights: VIGOUR, CLARITY, SPIRIT. 
-  They roll d12 + d6 for each of them and keep the results.</fr:p>
+            <fr:p>There are three virtues for knights: VIGOUR, CLARITY, SPIRIT.</fr:p>
+            <fr:p>They roll d12 + d6 for each of them and keep the results.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>

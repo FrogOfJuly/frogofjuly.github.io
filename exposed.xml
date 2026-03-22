@@ -2,14 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>250</fr:anchor>
+    <fr:anchor>246</fr:anchor>
     <fr:addr type="user">exposed</fr:addr>
     <fr:route>exposed.xml</fr:route>
     <fr:title text="Exposed">Exposed</fr:title>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Characters who are caught with their guard down or otherwise defenceless are Exposed and act as if they have 0<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>. If they remedy their situation then they are no longer Exposed. Traps and ambushes typically catch victims Exposed.</fr:p>
+    <fr:p>Characters who are caught with their guard down or otherwise defenceless are Exposed and act as if they have 0<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:p>
+    <fr:p>If they remedy their situation then they are no longer Exposed. Traps and ambushes typically catch victims Exposed.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -20,7 +21,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>251</fr:anchor>
+            <fr:anchor>247</fr:anchor>
             <fr:addr type="user">guard</fr:addr>
             <fr:route>guard.xml</fr:route>
             <fr:title text="Guard">Guard</fr:title>
