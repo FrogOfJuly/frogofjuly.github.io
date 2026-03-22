@@ -1,0 +1,28 @@
+\title{Scar}
+
+\p{
+
+Take the die that caused the Scar and roll it
+again, consulting the table below for the
+specific Scar caused.
+}\p{
+Virtue Loss through Scars is not Damage, so
+cannot Mortally Wound or Slay the victim.
+Scars are only gained through real, deadly
+combat, not training or bloodless duels.
+}\p{
+\ul{
+  \li{Distress. A lucky escape: lose d6 [SPI](virtues).}
+  \li{Disfigurement. A permanent mark: roll 1d6: Eye, Cheek, Neck, Torso, Nose, Jaw. If your max [GD](guard) is 2 or less, increase by d6.}
+  \li{Smash. A sudden spray of blood: lose 1d6 [VIG](virtues)}
+  \li{Stun. Pain drowns the senses: lose 1d6 [CLA](virtues). If your max [GD](guard) is 4 or less, increase it by 1d6.}
+  \li{Rupture. Innards pierced and compressed: lose 2d6 [VIG](virtues).}
+  \li{Gouge. Flesh torn from bone: `when you get stitched up, if your max [GD](guard) is 6 or less, increase it by 1d6.}
+  \li{Concussion. A heavy blow numbs the mind: lose 2d6 [CLA](virtues).}
+  \li{Tear. Something taken in violent struggle, roll 1d6: Nose, Ear, Finger, Thumb, Eye, Chunk of Scalp. When you get patched up, if your max [GD](guard) is 8 or less, increase it by 1d6.}
+  \li{Agony. With a crack, a torturous break: lose 2d6 [SPI](virtues).}
+  \li{Mutilation. A limb rendered lost or useless, roll 1d6: 1-2 Leg, 3-4 Shield Arm, 5-6 Sword Arm. By next Season you have a prosthetics or have learned to get by, and if your max [GD](guard) is 10 or less, increase it by 1d6.}
+  \li{Doom. A cheated death haunts you. If you take a Mortal Wound this Season you are Slain instead.}
+  \li{Humiliation. A most dolorous stroke: when you achieve revenge, if your max [GD](guard) is 12 or less, increase it by 1d6.}
+}
+}
