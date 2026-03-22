@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>272</fr:anchor>
+    <fr:anchor>275</fr:anchor>
     <fr:addr type="user">index</fr:addr>
     <fr:route>index.xml</fr:route>
     <fr:title text="Home">Home</fr:title>
@@ -25,7 +25,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>273</fr:anchor>
+            <fr:anchor>276</fr:anchor>
             <fr:addr type="user">me</fr:addr>
             <fr:route>me.xml</fr:route>
             <fr:title text="Kirill Golubev">Kirill Golubev</fr:title>
@@ -51,7 +51,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>274</fr:anchor>
+            <fr:anchor>277</fr:anchor>
             <fr:addr type="user">bastoinland_magic</fr:addr>
             <fr:route>bastoinland_magic.xml</fr:route>
             <fr:title text="Bastionland Magic">Bastionland Magic</fr:title>
@@ -59,12 +59,25 @@
           </fr:frontmatter>
           <fr:mainmatter>
             <fr:p>There is a unique feel to bastionland system of combat. Let's try to get the same feeling from casting spells.</fr:p>
+            <fr:p>There is not level up system in bastionland, so it is natural to give some resource that will represent spellcaster ability. 
+
+  Resource being a set of d6 dice equal to value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">Clarity</fr:link>. All spent dice are restored at sunrise.</fr:p>
+            <fr:p>To cast a spell caster rolls any amount of dice as an Action from that set and then decides what to cast. Only one spell can be cast per roll.</fr:p>
+            <fr:p>Here are some examples for purely combat spells:
+  <fr:ul><fr:li>Heat metal: intricate ladder of arcane pulses rapidly heats metal until it glows red hot. Pulses should be chained together carefully, so choose no less than three dice with consecutive values. If it is a piece of armour, wearer takes damage equal to the sum of chosen dice. If it is a weapon, bearer choses to drop it or persevere through pain taking half of the sum of the chosen dice. Any damage from this spell ignores <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:li>
+    <fr:li>Magic missile: identical glowing bolts launch towards chosen targets piercing bone and muscle. Pick any amount of dice with the same value rolled. You can pick different target for each bolt, it deals damage equal to that picked value.</fr:li>
+    <fr:li>Hex: curse of misfortune impairs defense and makes target more vulnerable. Choose three dice that have value of one, for the remaining combat any one who attacks the bearer of this curse can add a die from chosen to dice that represent an attack. The die can be added multiple times, but only a single hex can be cast upon any one creature.</fr:li>
+    <fr:li>True Strike: ?? adds modifier for Bolster?</fr:li>
+    <fr:li>Mind Sliver: ?? Verbal and Somatic components..? Simple spell damage?</fr:li>
+    <fr:li>Thunderclap: ?? with blast</fr:li></fr:ul></fr:p>
+            <fr:p>This system becomes unwieldy very fast, as the time to check combination for a lot of spells grows in an unpleasant way. Mythic Bastionland is suited for that, as it is very easy to have small amount of spells as they are lost and forgotten.</fr:p>
+            <fr:p>Also, to add even more agency, caster can roll any amount of dice and then choose half(rounded down) and discard the rest. These picked dice can be used to cast spells. They persist until spent, but the total amount of dice can't exceed value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">Clarity</fr:link>. If it is the case at any time, discard until it is no longer the case.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>275</fr:anchor>
+            <fr:anchor>278</fr:anchor>
             <fr:addr type="user">mythic_bastionland</fr:addr>
             <fr:route>mythic_bastionland.xml</fr:route>
             <fr:title text="Recap of Mythic Bastionland">Recap of Mythic Bastionland</fr:title>
