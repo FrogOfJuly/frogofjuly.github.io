@@ -113,12 +113,12 @@
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>There are three virtues for knights: <fr:strong><fr:strong>VIG</fr:strong></fr:strong>OUR, <fr:strong><fr:strong>CLA</fr:strong></fr:strong>RITY, <fr:strong><fr:strong>SPI</fr:strong></fr:strong>RIT.</fr:p>
+            <fr:p>There are three virtues for knights: <fr:strong>VIG</fr:strong>OUR, <fr:strong>CLA</fr:strong>RITY, <fr:strong>SPI</fr:strong>RIT.</fr:p>
             <fr:p>They roll d12 + d6 for each of them and keep the results.</fr:p>
             <fr:p>
-              <fr:ul><fr:li><fr:strong><fr:strong>VIG</fr:strong></fr:strong>our is restored by consuming Sustenance or spending a full day in warm ho<fr:strong>SPI</fr:strong>tality.</fr:li>
-    <fr:li><fr:strong><fr:strong>CLA</fr:strong></fr:strong>rity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
-    <fr:li><fr:strong><fr:strong>SPI</fr:strong></fr:strong>rit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
+              <fr:ul><fr:li><fr:strong>Vig</fr:strong>our is restored by consuming Sustenance or spending a full day in warm hospitality.</fr:li>
+    <fr:li><fr:strong>Cla</fr:strong>rity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
+    <fr:li><fr:strong>Spi</fr:strong>rit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
             </fr:p>
             <fr:p>At <fr:strong>VIG</fr:strong> 0 you are Exhausted and cannot Attack if you have moved this turn.</fr:p>
             <fr:p>At <fr:strong>CLA</fr:strong> 0 you are <fr:link type="local" href="exposed.xml" addr="exposed" title="Exposed">Exposed</fr:link>.</fr:p>

@@ -54,7 +54,7 @@
   <fr:ul><fr:li><fr:link type="local" href="me.xml" addr="me" title="Kirill Golubev">About me</fr:link></fr:li>
     <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/coffee_cup">Coffee trap solution</fr:link></fr:li>
     <fr:li><fr:link type="external" href="https://frogofjuly.github.io/hex-life/">Game of Life on a sphere</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/BloodMage_DnDCLAss/blob/main/output/main.compressed.pdf">Blood Mage <fr:strong>CLA</fr:strong>ss for DnD</fr:link></fr:li>
+    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/BloodMage_DnDclass/blob/main/output/main.compressed.pdf">Blood Mage class for DnD</fr:link></fr:li>
     <fr:li><fr:link type="local" href="bastoinland_magic.xml" addr="bastoinland_magic" title="Bastionland Magic">Magic</fr:link> for <fr:link type="local" href="mythic_bastionland.xml" addr="mythic_bastionland" title="Recap of Mythic Bastionland">Bastionland</fr:link></fr:li></fr:ul></fr:p>
           </fr:mainmatter>
           <fr:backmatter />
@@ -133,7 +133,7 @@
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>Guard is a "refillable hp" which is reduced before damage reduces <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong>our</fr:link>.</fr:p>
+            <fr:p>Guard is a "refillable hp" which is reduced before damage reduces <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>Vig</fr:strong>our</fr:link>.</fr:p>
             <fr:p>Restored fully upon a moment of piece after the danger has passed.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
@@ -193,12 +193,12 @@ combat, not training or bloodless duels.</fr:p>
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>There are three virtues for knights: <fr:strong><fr:strong>VIG</fr:strong></fr:strong>OUR, <fr:strong><fr:strong>CLA</fr:strong></fr:strong>RITY, <fr:strong><fr:strong>SPI</fr:strong></fr:strong>RIT.</fr:p>
+            <fr:p>There are three virtues for knights: <fr:strong>VIG</fr:strong>OUR, <fr:strong>CLA</fr:strong>RITY, <fr:strong>SPI</fr:strong>RIT.</fr:p>
             <fr:p>They roll d12 + d6 for each of them and keep the results.</fr:p>
             <fr:p>
-              <fr:ul><fr:li><fr:strong><fr:strong>VIG</fr:strong></fr:strong>our is restored by consuming Sustenance or spending a full day in warm ho<fr:strong>SPI</fr:strong>tality.</fr:li>
-    <fr:li><fr:strong><fr:strong>CLA</fr:strong></fr:strong>rity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
-    <fr:li><fr:strong><fr:strong>SPI</fr:strong></fr:strong>rit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
+              <fr:ul><fr:li><fr:strong>Vig</fr:strong>our is restored by consuming Sustenance or spending a full day in warm hospitality.</fr:li>
+    <fr:li><fr:strong>Cla</fr:strong>rity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
+    <fr:li><fr:strong>Spi</fr:strong>rit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
             </fr:p>
             <fr:p>At <fr:strong>VIG</fr:strong> 0 you are Exhausted and cannot Attack if you have moved this turn.</fr:p>
             <fr:p>At <fr:strong>CLA</fr:strong> 0 you are <fr:link type="local" href="exposed.xml" addr="exposed" title="Exposed">Exposed</fr:link>.</fr:p>

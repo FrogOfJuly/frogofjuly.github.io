@@ -12,17 +12,17 @@
     <fr:p>There is a unique feel to the Bastionland system of combat. Let's try to get the same feeling from casting spells.</fr:p>
     <fr:p>There is no level-up system in Bastionland, so it is natural to give some resources that will represent spellcaster ability. 
 
- Resource is a set of d6 dice equal to the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>CLA</fr:strong>rity</fr:link>. Each time you restore <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong><fr:strong>SPI</fr:strong></fr:strong>rit</fr:link> via indulging a Passion, you can regain up to two missing dice from this set.</fr:p>
+ Resource is a set of d6 dice equal to the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>Cla</fr:strong>rity</fr:link>. Each time you restore <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues">strong{Spi}rit</fr:link> via indulging a Passion, you can regain up to two missing dice from this set.</fr:p>
     <fr:p>To cast a spell, a caster rolls any number of dice as an Action from that set and then decides what to cast. Only one spell can be cast per roll.</fr:p>
     <fr:p>Here are some examples of purely combat spells:
  <fr:ul><fr:li><fr:strong>Heat metal</fr:strong>: intricate ladder of arcane pulses rapidly heats metal until it glows red hot. Pulses should be chained together carefully, pick no less than three dice with consecutive values. If it is a piece of armour, the wearer takes damage equal to the sum of chosen dice. If it is a weapon, the bearer chooses to drop it or persevere through pain, taking half of the sum of the chosen dice. Any damage from this spell ignores <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:li>
     <fr:li><fr:strong>Magic missile</fr:strong>: identical glowing bolts launch towards chosen targets, piercing bone and muscle. Pick any number of dice with the same value rolled. You can pick a different target for each bolt; it deals damage equal to the rolled value.</fr:li>
     <fr:li><fr:strong>Hex</fr:strong>: curse of misfortune impairs defense and makes the target more vulnerable. Pick three dice that have a value of one. For the remaining combat, anyone who attacks the bearer of this curse can add a die from picked ones to the dice that represent an attack before rolling them. The same die can be used by multiple attacks, but only a single hex can be cast upon any one creature.</fr:li>
     <fr:li><fr:strong>True Strike</fr:strong>: Pick any number of dice, then perform an Attack as usual. You can replace any die of the attack with any die from those you picked.</fr:li>
-    <fr:li><fr:strong>Thunder<fr:strong>CLA</fr:strong>p</fr:strong>: Pick any number of dice, treat them as if it was a single ranged Attack with Blast property.</fr:li>
+    <fr:li><fr:strong>Thunderclap</fr:strong>: Pick any number of dice, treat them as if it was a single ranged Attack with Blast property.</fr:li>
     <fr:li><fr:strong>Shield</fr:strong>: Pick two dice and add the smaller rolled value among them to your <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>. If the guard value exceeds it's maximum surplus persists until next time you would restore guard to full.</fr:li></fr:ul></fr:p>
     <fr:p>This system becomes unwieldy very fast, as the time to check the combination for a lot of spells grows in an unpleasant way. Mythic Bastionland is suited for that, as it is very easy to have a small number of spells, as majority of them are lost and forgotten.</fr:p>
-    <fr:p>Also, to add even more agency, caster can roll any number of dice and then choose half(rounded down) and discard the rest. These picked dice can be used to cast spells as if you rolled them. They persist until chosen to be spent, but the total amount of dice can't exceed the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong><fr:strong>CLA</fr:strong></fr:strong>rity</fr:link>. If it is the case at any time, discard until it is no longer the case.</fr:p>
+    <fr:p>Also, to add even more agency, caster can roll any number of dice and then choose half(rounded down) and discard the rest. These picked dice can be used to cast spells as if you rolled them. They persist until chosen to be spent, but the total amount of dice can't exceed the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>Cla</fr:strong>rity</fr:link>. If it is the case at any time, discard until it is no longer the case.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -44,7 +44,7 @@
   <fr:ul><fr:li><fr:link type="local" href="me.xml" addr="me" title="Kirill Golubev">About me</fr:link></fr:li>
     <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/coffee_cup">Coffee trap solution</fr:link></fr:li>
     <fr:li><fr:link type="external" href="https://frogofjuly.github.io/hex-life/">Game of Life on a sphere</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/BloodMage_DnDCLAss/blob/main/output/main.compressed.pdf">Blood Mage <fr:strong>CLA</fr:strong>ss for DnD</fr:link></fr:li>
+    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/BloodMage_DnDclass/blob/main/output/main.compressed.pdf">Blood Mage class for DnD</fr:link></fr:li>
     <fr:li><fr:link type="local" href="bastoinland_magic.xml" addr="bastoinland_magic" title="Bastionland Magic">Magic</fr:link> for <fr:link type="local" href="mythic_bastionland.xml" addr="mythic_bastionland" title="Recap of Mythic Bastionland">Bastionland</fr:link></fr:li></fr:ul></fr:p>
           </fr:mainmatter>
           <fr:backmatter />
@@ -67,7 +67,7 @@
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>Guard is a "refillable hp" which is reduced before damage reduces <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong>our</fr:link>.</fr:p>
+            <fr:p>Guard is a "refillable hp" which is reduced before damage reduces <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>Vig</fr:strong>our</fr:link>.</fr:p>
             <fr:p>Restored fully upon a moment of piece after the danger has passed.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
@@ -81,12 +81,12 @@
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>There are three virtues for knights: <fr:strong><fr:strong>VIG</fr:strong></fr:strong>OUR, <fr:strong><fr:strong>CLA</fr:strong></fr:strong>RITY, <fr:strong><fr:strong>SPI</fr:strong></fr:strong>RIT.</fr:p>
+            <fr:p>There are three virtues for knights: <fr:strong>VIG</fr:strong>OUR, <fr:strong>CLA</fr:strong>RITY, <fr:strong>SPI</fr:strong>RIT.</fr:p>
             <fr:p>They roll d12 + d6 for each of them and keep the results.</fr:p>
             <fr:p>
-              <fr:ul><fr:li><fr:strong><fr:strong>VIG</fr:strong></fr:strong>our is restored by consuming Sustenance or spending a full day in warm ho<fr:strong>SPI</fr:strong>tality.</fr:li>
-    <fr:li><fr:strong><fr:strong>CLA</fr:strong></fr:strong>rity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
-    <fr:li><fr:strong><fr:strong>SPI</fr:strong></fr:strong>rit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
+              <fr:ul><fr:li><fr:strong>Vig</fr:strong>our is restored by consuming Sustenance or spending a full day in warm hospitality.</fr:li>
+    <fr:li><fr:strong>Cla</fr:strong>rity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
+    <fr:li><fr:strong>Spi</fr:strong>rit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
             </fr:p>
             <fr:p>At <fr:strong>VIG</fr:strong> 0 you are Exhausted and cannot Attack if you have moved this turn.</fr:p>
             <fr:p>At <fr:strong>CLA</fr:strong> 0 you are <fr:link type="local" href="exposed.xml" addr="exposed" title="Exposed">Exposed</fr:link>.</fr:p>

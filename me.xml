@@ -44,7 +44,7 @@
   <fr:ul><fr:li><fr:link type="local" href="me.xml" addr="me" title="Kirill Golubev">About me</fr:link></fr:li>
     <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/coffee_cup">Coffee trap solution</fr:link></fr:li>
     <fr:li><fr:link type="external" href="https://frogofjuly.github.io/hex-life/">Game of Life on a sphere</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/BloodMage_DnDCLAss/blob/main/output/main.compressed.pdf">Blood Mage <fr:strong>CLA</fr:strong>ss for DnD</fr:link></fr:li>
+    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/BloodMage_DnDclass/blob/main/output/main.compressed.pdf">Blood Mage class for DnD</fr:link></fr:li>
     <fr:li><fr:link type="local" href="bastoinland_magic.xml" addr="bastoinland_magic" title="Bastionland Magic">Magic</fr:link> for <fr:link type="local" href="mythic_bastionland.xml" addr="mythic_bastionland" title="Recap of Mythic Bastionland">Bastionland</fr:link></fr:li></fr:ul></fr:p>
           </fr:mainmatter>
           <fr:backmatter />
