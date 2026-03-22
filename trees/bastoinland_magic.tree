@@ -15,8 +15,7 @@
     \li{Magic missile: identical glowing bolts launch towards chosen targets, piercing bone and muscle. Pick any number of dice with the same value rolled. You can pick a different target for each bolt; it deals damage equal to the rolled value. }
     \li{Hex: curse of misfortune impairs defense and makes the target more vulnerable. Pick three dice that have a value of one. For the remaining combat, anyone who attacks the bearer of this curse can add a die from picked ones to the dice that represent an attack before rolling them. The same die can be used by multiple attacks, but only a single hex can be cast upon any one creature. }
     \li{True Strike: Pick any number of dice, then perform an Attack as usual. You can replace any die of the attack with any die from those you picked. }
-    \li{Mind Sliver: ?? Verbal and Somatic components..? Simple spell damage? }
-    \li{Thunderclap: Pick any number of dice, treat them as if it was a single ranged attack with blast property. }
+    \li{Thunderclap: Pick any number of dice, treat them as if it was a single ranged Attack with Blast property. }
     \li{Shield: Pick two dice and add the smaller rolled value among them to your [GD](guard). If the guard value exceeds it's maximum surplus persists until next time you would restore guard to full. }
  }
 }\p{
