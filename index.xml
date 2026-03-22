@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>270</fr:anchor>
+    <fr:anchor>272</fr:anchor>
     <fr:addr type="user">index</fr:addr>
     <fr:route>index.xml</fr:route>
     <fr:title text="Home">Home</fr:title>
@@ -14,7 +14,7 @@
     <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/coffee_cup">Coffee trap solution</fr:link></fr:li>
     <fr:li><fr:link type="external" href="https://frogofjuly.github.io/hex-life/">Game of Life on a sphere</fr:link></fr:li>
     <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/BloodMage_DnDClass/blob/main/output/main.compressed.pdf">Blood Mage class for DnD</fr:link></fr:li>
-    <fr:li>Magic for <fr:link type="local" href="magic_bastionland.xml" addr="magic_bastionland" title="Recap of Mythic Bastionland">Bastionland</fr:link></fr:li></fr:ul></fr:p>
+    <fr:li><fr:link type="local" href="bastoinland_magic.xml" addr="bastoinland_magic" title="Bastionland Magic">Magic</fr:link> for <fr:link type="local" href="mythic_bastionland.xml" addr="mythic_bastionland" title="Recap of Mythic Bastionland">Bastionland</fr:link></fr:li></fr:ul></fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -25,7 +25,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>271</fr:anchor>
+            <fr:anchor>273</fr:anchor>
             <fr:addr type="user">me</fr:addr>
             <fr:route>me.xml</fr:route>
             <fr:title text="Kirill Golubev">Kirill Golubev</fr:title>
@@ -51,9 +51,22 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>272</fr:anchor>
-            <fr:addr type="user">magic_bastionland</fr:addr>
-            <fr:route>magic_bastionland.xml</fr:route>
+            <fr:anchor>274</fr:anchor>
+            <fr:addr type="user">bastoinland_magic</fr:addr>
+            <fr:route>bastoinland_magic.xml</fr:route>
+            <fr:title text="Bastionland Magic">Bastionland Magic</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>There is a unique feel to bastionland system of combat. Let's try to get the same feeling from casting spells.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>275</fr:anchor>
+            <fr:addr type="user">mythic_bastionland</fr:addr>
+            <fr:route>mythic_bastionland.xml</fr:route>
             <fr:title text="Recap of Mythic Bastionland">Recap of Mythic Bastionland</fr:title>
             <fr:authors />
           </fr:frontmatter>

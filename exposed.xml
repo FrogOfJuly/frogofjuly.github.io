@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>246</fr:anchor>
+    <fr:anchor>248</fr:anchor>
     <fr:addr type="user">exposed</fr:addr>
     <fr:route>exposed.xml</fr:route>
     <fr:title text="Exposed">Exposed</fr:title>
@@ -21,7 +21,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>247</fr:anchor>
+            <fr:anchor>249</fr:anchor>
             <fr:addr type="user">virtues</fr:addr>
             <fr:route>virtues.xml</fr:route>
             <fr:title text="Virtues">Virtues</fr:title>
@@ -52,7 +52,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>248</fr:anchor>
+            <fr:anchor>250</fr:anchor>
             <fr:addr type="user">guard</fr:addr>
             <fr:route>guard.xml</fr:route>
             <fr:title text="Guard">Guard</fr:title>
