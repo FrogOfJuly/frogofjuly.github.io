@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>293</fr:anchor>
+    <fr:anchor>295</fr:anchor>
     <fr:addr type="user">virtues</fr:addr>
     <fr:route>virtues.xml</fr:route>
     <fr:title text="Virtues">Virtues</fr:title>
@@ -11,6 +11,14 @@
   <fr:mainmatter>
     <fr:p>There are three virtues for knights: VIGOUR, CLARITY, SPIRIT.</fr:p>
     <fr:p>They roll d12 + d6 for each of them and keep the results.</fr:p>
+    <fr:p>
+      <fr:ul><fr:li>Vigour is restored by consuming Sustenance or spending a full day in warm hospitality.</fr:li>
+    <fr:li>Clarity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
+    <fr:li>Spirit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
+    </fr:p>
+    <fr:p>At VIG 0 you are Exhausted and cannot Attack if you have moved this turn.</fr:p>
+    <fr:p>At CLA 0 you are <fr:link type="local" href="exposed.xml" addr="exposed" title="Exposed">Exposed</fr:link>.</fr:p>
+    <fr:p>At SPI 0 your attacks are <fr:link type="local" href="impaired.xml" addr="impaired" title="Impaired">Impaired</fr:link>.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -21,7 +29,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>294</fr:anchor>
+            <fr:anchor>296</fr:anchor>
             <fr:addr type="user">feats</fr:addr>
             <fr:route>feats.xml</fr:route>
             <fr:title text="Feats">Feats</fr:title>
@@ -36,7 +44,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>295</fr:anchor>
+            <fr:anchor>297</fr:anchor>
             <fr:addr type="user">gambits</fr:addr>
             <fr:route>gambits.xml</fr:route>
             <fr:title text="Gambits">Gambits</fr:title>
@@ -64,7 +72,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>296</fr:anchor>
+            <fr:anchor>298</fr:anchor>
             <fr:addr type="user">guard</fr:addr>
             <fr:route>guard.xml</fr:route>
             <fr:title text="Guard">Guard</fr:title>
@@ -78,7 +86,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>297</fr:anchor>
+            <fr:anchor>299</fr:anchor>
             <fr:addr type="user">magic_bastionland</fr:addr>
             <fr:route>magic_bastionland.xml</fr:route>
             <fr:title text="Recap of Mythic Bastionland">Recap of Mythic Bastionland</fr:title>
@@ -114,7 +122,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>298</fr:anchor>
+            <fr:anchor>300</fr:anchor>
             <fr:addr type="user">saves</fr:addr>
             <fr:route>saves.xml</fr:route>
             <fr:title text="Saves">Saves</fr:title>
@@ -127,7 +135,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>299</fr:anchor>
+            <fr:anchor>301</fr:anchor>
             <fr:addr type="user">scar</fr:addr>
             <fr:route>scar.xml</fr:route>
             <fr:title text="Scar">Scar</fr:title>
@@ -155,6 +163,42 @@ combat, not training or bloodless duels.</fr:p>
   <fr:li>Doom. A cheated death haunts you. If you take a Mortal Wound this Season you are Slain instead.</fr:li>
   <fr:li>Humiliation. A most dolorous stroke: when you achieve revenge, if your max <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> is 12 or less, increase it by 1d6.</fr:li></fr:ul>
             </fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>302</fr:anchor>
+            <fr:addr type="user">exposed</fr:addr>
+            <fr:route>exposed.xml</fr:route>
+            <fr:title text="Exposed">Exposed</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Characters who are caught with their guard down or otherwise defenceless are Exposed and act as if they have 0<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:p>
+            <fr:p>If they remedy their situation then they are no longer Exposed. Traps and ambushes typically catch victims Exposed.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>303</fr:anchor>
+            <fr:addr type="user">impaired</fr:addr>
+            <fr:route>impaired.xml</fr:route>
+            <fr:title text="Impaired">Impaired</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>Impaired attacks roll d4 only and cannot gain bonus dice or benefit from <fr:link type="local" href="feats.xml" addr="feats" title="Feats">Feats</fr:link>.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>

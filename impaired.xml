@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>272</fr:anchor>
+    <fr:anchor>273</fr:anchor>
     <fr:addr type="user">impaired</fr:addr>
     <fr:route>impaired.xml</fr:route>
     <fr:title text="Impaired">Impaired</fr:title>
@@ -20,7 +20,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>273</fr:anchor>
+            <fr:anchor>274</fr:anchor>
             <fr:addr type="user">gambits</fr:addr>
             <fr:route>gambits.xml</fr:route>
             <fr:title text="Gambits">Gambits</fr:title>
@@ -46,6 +46,28 @@
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>275</fr:anchor>
+            <fr:addr type="user">virtues</fr:addr>
+            <fr:route>virtues.xml</fr:route>
+            <fr:title text="Virtues">Virtues</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>There are three virtues for knights: VIGOUR, CLARITY, SPIRIT.</fr:p>
+            <fr:p>They roll d12 + d6 for each of them and keep the results.</fr:p>
+            <fr:p>
+              <fr:ul><fr:li>Vigour is restored by consuming Sustenance or spending a full day in warm hospitality.</fr:li>
+    <fr:li>Clarity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
+    <fr:li>Spirit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
+            </fr:p>
+            <fr:p>At VIG 0 you are Exhausted and cannot Attack if you have moved this turn.</fr:p>
+            <fr:p>At CLA 0 you are <fr:link type="local" href="exposed.xml" addr="exposed" title="Exposed">Exposed</fr:link>.</fr:p>
+            <fr:p>At SPI 0 your attacks are <fr:link type="local" href="impaired.xml" addr="impaired" title="Impaired">Impaired</fr:link>.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
       </fr:mainmatter>
       <fr:backmatter />
     </fr:tree>
@@ -57,7 +79,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>274</fr:anchor>
+            <fr:anchor>276</fr:anchor>
             <fr:addr type="user">feats</fr:addr>
             <fr:route>feats.xml</fr:route>
             <fr:title text="Feats">Feats</fr:title>

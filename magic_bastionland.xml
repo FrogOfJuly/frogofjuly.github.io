@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>275</fr:anchor>
+    <fr:anchor>277</fr:anchor>
     <fr:addr type="user">magic_bastionland</fr:addr>
     <fr:route>magic_bastionland.xml</fr:route>
     <fr:title text="Recap of Mythic Bastionland">Recap of Mythic Bastionland</fr:title>
@@ -43,7 +43,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>276</fr:anchor>
+            <fr:anchor>278</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Home">Home</fr:title>
@@ -70,7 +70,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>277</fr:anchor>
+            <fr:anchor>279</fr:anchor>
             <fr:addr type="user">fatigue</fr:addr>
             <fr:route>fatigue.xml</fr:route>
             <fr:title text="Fatigue">Fatigue</fr:title>
@@ -83,7 +83,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>278</fr:anchor>
+            <fr:anchor>280</fr:anchor>
             <fr:addr type="user">feats</fr:addr>
             <fr:route>feats.xml</fr:route>
             <fr:title text="Feats">Feats</fr:title>
@@ -98,7 +98,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>279</fr:anchor>
+            <fr:anchor>281</fr:anchor>
             <fr:addr type="user">gambits</fr:addr>
             <fr:route>gambits.xml</fr:route>
             <fr:title text="Gambits">Gambits</fr:title>
@@ -126,7 +126,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>280</fr:anchor>
+            <fr:anchor>282</fr:anchor>
             <fr:addr type="user">guard</fr:addr>
             <fr:route>guard.xml</fr:route>
             <fr:title text="Guard">Guard</fr:title>
@@ -140,7 +140,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>281</fr:anchor>
+            <fr:anchor>283</fr:anchor>
             <fr:addr type="user">saves</fr:addr>
             <fr:route>saves.xml</fr:route>
             <fr:title text="Saves">Saves</fr:title>
@@ -153,7 +153,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>282</fr:anchor>
+            <fr:anchor>284</fr:anchor>
             <fr:addr type="user">scar</fr:addr>
             <fr:route>scar.xml</fr:route>
             <fr:title text="Scar">Scar</fr:title>
@@ -186,7 +186,7 @@ combat, not training or bloodless duels.</fr:p>
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>283</fr:anchor>
+            <fr:anchor>285</fr:anchor>
             <fr:addr type="user">virtues</fr:addr>
             <fr:route>virtues.xml</fr:route>
             <fr:title text="Virtues">Virtues</fr:title>
@@ -195,6 +195,14 @@ combat, not training or bloodless duels.</fr:p>
           <fr:mainmatter>
             <fr:p>There are three virtues for knights: VIGOUR, CLARITY, SPIRIT.</fr:p>
             <fr:p>They roll d12 + d6 for each of them and keep the results.</fr:p>
+            <fr:p>
+              <fr:ul><fr:li>Vigour is restored by consuming Sustenance or spending a full day in warm hospitality.</fr:li>
+    <fr:li>Clarity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
+    <fr:li>Spirit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
+            </fr:p>
+            <fr:p>At VIG 0 you are Exhausted and cannot Attack if you have moved this turn.</fr:p>
+            <fr:p>At CLA 0 you are <fr:link type="local" href="exposed.xml" addr="exposed" title="Exposed">Exposed</fr:link>.</fr:p>
+            <fr:p>At SPI 0 your attacks are <fr:link type="local" href="impaired.xml" addr="impaired" title="Impaired">Impaired</fr:link>.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
