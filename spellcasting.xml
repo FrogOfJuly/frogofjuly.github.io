@@ -2,56 +2,37 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>275</fr:anchor>
-    <fr:addr type="user">index</fr:addr>
-    <fr:route>index.xml</fr:route>
-    <fr:title text="Home">Home</fr:title>
+    <fr:anchor>301</fr:anchor>
+    <fr:addr type="user">spellcasting</fr:addr>
+    <fr:route>spellcasting.xml</fr:route>
+    <fr:title text="Spellcasting">Spellcasting</fr:title>
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Welcome!
-  <fr:ul><fr:li><fr:link type="local" href="me.xml" addr="me" title="Kirill Golubev">About me</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/coffee_cup">Coffee trap solution</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://frogofjuly.github.io/hex-life/">Game of Life on a sphere</fr:link></fr:li>
-    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/BloodMage_DnDclass/blob/main/output/main.compressed.pdf">Blood Mage class for DnD</fr:link></fr:li>
-    <fr:li><fr:link type="local" href="bastoinland_magic.xml" addr="bastoinland_magic" title="Bastionland Magic">Magic</fr:link> for <fr:link type="local" href="mythic_bastionland.xml" addr="mythic_bastionland" title="Recap of Mythic Bastionland">Bastionland</fr:link></fr:li></fr:ul></fr:p>
+    <fr:p>There is no level-up system in Bastionland, so it is natural to give some resources that will represent spellcaster ability. 
+
+ Resource is a set of d6 dice equal to the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>Cla</fr:strong>rity</fr:link>. Each time you restore <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>Spi</fr:strong>rit</fr:link> via indulging a Passion, you can regain up to two missing dice from this set.</fr:p>
+    <fr:p>To cast a spell, a caster rolls any number of dice as an Action from that set and then decides what to cast. Only one spell can be cast per roll.</fr:p>
+    <fr:p>Here are some examples of purely combat spells:
+ <fr:ul><fr:li><fr:strong>Heat metal</fr:strong>: intricate ladder of arcane pulses rapidly heats metal until it glows red hot. Pulses should be chained together carefully, pick no less than three dice with consecutive values. If it is a piece of armour, the wearer takes damage equal to the sum of chosen dice. If it is a weapon, the bearer chooses to drop it or persevere through pain, taking half of the sum of the chosen dice. Any damage from this spell ignores <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:li>
+    <fr:li><fr:strong>Magic missile</fr:strong>: identical glowing bolts launch towards chosen targets, piercing bone and muscle. Pick any number of dice with the same value rolled. You can pick a different target for each bolt; it deals damage equal to the rolled value.</fr:li>
+    <fr:li><fr:strong>Hex</fr:strong>: curse of misfortune impairs defense and makes the target more vulnerable. Pick three dice that have a value of one. For the remaining combat, anyone who attacks the bearer of this curse can add a die from picked ones to the dice that represent an attack before rolling them. The same die can be used by multiple attacks, but only a single hex can be cast upon any one creature.</fr:li>
+    <fr:li><fr:strong>True Strike</fr:strong>: Pick any number of dice, then perform an Attack as usual. You can replace any die of the attack with any die from those you picked.</fr:li>
+    <fr:li><fr:strong>Thunderclap</fr:strong>: Pick any number of dice, treat them as if it was a single ranged Attack with Blast property.</fr:li>
+    <fr:li><fr:strong>Shield</fr:strong>: Pick two dice and add the smaller rolled value among them to your <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>. If the guard value exceeds it's maximum surplus persists until next time you would restore guard to full.</fr:li></fr:ul></fr:p>
+    <fr:p>This system becomes unwieldy very fast, as the time to check the combination for a lot of spells grows in an unpleasant way. Mythic Bastionland is suited for that, as it is very easy to have a small number of spells, as majority of them are lost and forgotten.</fr:p>
+    <fr:p>Also, to add even more agency, caster can roll any number of dice and then choose half(rounded down) and discard the rest. These picked dice can be used to cast spells as if you rolled them. They persist until chosen to be spent, but the total amount of dice can't exceed the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>Cla</fr:strong>rity</fr:link>. If it is the case at any time, discard until it is no longer the case.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:title text="Related">Related</fr:title>
+        <fr:title text="Context">Context</fr:title>
         <fr:authors />
       </fr:frontmatter>
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>276</fr:anchor>
-            <fr:addr type="user">me</fr:addr>
-            <fr:route>me.xml</fr:route>
-            <fr:title text="Kirill Golubev">Kirill Golubev</fr:title>
-            <fr:date>
-              <fr:year>2025</fr:year>
-              <fr:month>3</fr:month>
-              <fr:day>1</fr:day>
-            </fr:date>
-            <fr:authors />
-            <fr:meta name="institution">
-              <fr:link type="external" href="https://www.utu.fi/en/people/kirill-golubev">utu</fr:link>
-            </fr:meta>
-            <fr:meta name="institution">
-              <fr:link type="external" href="https://www.github.com/FrogOfJuly">github</fr:link>
-            </fr:meta>
-            <fr:meta name="position">Doctoral Researcher</fr:meta>
-          </fr:frontmatter>
-          <fr:mainmatter>
-            <fr:p>I am a PhD student at Turku University.</fr:p>
-            <fr:p>Supervised by <fr:link type="external" href="https://www.utu.fi/en/people/jaakko-jarvi">Jaakko Järvi</fr:link> and <fr:link type="external" href="https://www4.uib.no/en/find-employees/mikhail.barash">Mikhail Barash</fr:link>.</fr:p>
-          </fr:mainmatter>
-          <fr:backmatter />
-        </fr:tree>
-        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
-          <fr:frontmatter>
-            <fr:anchor>277</fr:anchor>
+            <fr:anchor>302</fr:anchor>
             <fr:addr type="user">bastoinland_magic</fr:addr>
             <fr:route>bastoinland_magic.xml</fr:route>
             <fr:title text="Bastionland Magic">Bastionland Magic</fr:title>
@@ -133,39 +114,48 @@
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
+      </fr:mainmatter>
+      <fr:backmatter />
+    </fr:tree>
+    <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+      <fr:frontmatter>
+        <fr:title text="Related">Related</fr:title>
+        <fr:authors />
+      </fr:frontmatter>
+      <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>278</fr:anchor>
-            <fr:addr type="user">mythic_bastionland</fr:addr>
-            <fr:route>mythic_bastionland.xml</fr:route>
-            <fr:title text="Recap of Mythic Bastionland">Recap of Mythic Bastionland</fr:title>
+            <fr:anchor>303</fr:anchor>
+            <fr:addr type="user">guard</fr:addr>
+            <fr:route>guard.xml</fr:route>
+            <fr:title text="Guard">Guard</fr:title>
             <fr:authors />
           </fr:frontmatter>
           <fr:mainmatter>
-            <fr:p>Specifics of Combat of the wonderful system of <fr:link type="external" href="https://chrismcdee.itch.io/mythic-bastionland">"Mythic Bastionland"</fr:link></fr:p>
-            <fr:p>A turn is enough time to Move and then perform an Action, always in that order.</fr:p>
-            <fr:p>Players normally take the first turn of combat, discussing their plan and acting in any order they wish.</fr:p>
-            <fr:p>Characters who were not readied for combat must pass a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>CLA</fr:strong></fr:link> <fr:link type="local" href="saves.xml" addr="saves" title="Saves">Save</fr:link> or miss the first turn.</fr:p>
-            <fr:p>Non-player characters react in a way that feels appropriate for current context.</fr:p>
-            <fr:p>When uncertain, a character makes a <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>SPI</fr:strong></fr:link> to avoid an unfavourable reaction.</fr:p>
-            <fr:p>Feats are special actions known by Knights can be performed as <fr:link type="local" href="feats.xml" addr="feats" title="Feats">described</fr:link>. Using Feats risks the Knight becoming <fr:link type="local" href="fatigue.xml" addr="fatigue" title="Fatigue">Fatigued</fr:link> which prevents them from using further Feats until they rest.</fr:p>
-            <fr:p>Take the Action dice noted on your weapon(s), shield, and granted by bonuses.
-
-  Go through the following steps in order:
-
-  <fr:ul><fr:li>All combatants attacking the same target roll their dice at the ame time.</fr:li>
-    <fr:li>If the target or their nearby allies can <fr:link type="local" href="feats.xml" addr="feats" title="Feats">Deny</fr:link> the may use it.</fr:li>
-    <fr:li>Attackers amy perform <fr:link type="local" href="gambits.xml" addr="gambits" title="Gambits">Gambits</fr:link>.</fr:li>
-    <fr:li>Take the hightest die remaining.</fr:li>
-    <fr:li>Add extra Damage from attackers who are <fr:link type="local" href="gambits.xml" addr="gambits" title="Gambits">Bolstering</fr:link> the Attack.</fr:li>
-    <fr:li>Subtract the target's total Armour score.</fr:li>
-    <fr:li>The Attack causes that much Damage.</fr:li></fr:ul></fr:p>
-            <fr:p>The attack's Damage is deducted from the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>.</fr:p>
-            <fr:p>If the have at least 1<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> remaining then they Evade the Attack.</fr:p>
-            <fr:p>If it leaves them with exactly 0<fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link> then they gain a <fr:link type="local" href="scar.xml" addr="scar" title="Scar">Scar</fr:link>.</fr:p>
-            <fr:p>If exceeds the target's <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>, the excess is deducted from <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link> and they are wounded.</fr:p>
-            <fr:p>If they lose half or more of their remaining <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link> it is a Mortal Wound. Mortally Wounded targets are down and dying. They die if left untended for an hour, but can be patched up in a few moments.</fr:p>
-            <fr:p>If Damage reduces the target's <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>VIG</fr:strong></fr:link> to 0, the are Slain.</fr:p>
+            <fr:p>Guard is a "refillable hp" which is reduced before damage reduces <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>Vig</fr:strong>our</fr:link>.</fr:p>
+            <fr:p>Restored fully upon a moment of piece after the danger has passed.</fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>304</fr:anchor>
+            <fr:addr type="user">virtues</fr:addr>
+            <fr:route>virtues.xml</fr:route>
+            <fr:title text="Virtues">Virtues</fr:title>
+            <fr:authors />
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>There are three virtues for knights: <fr:strong>VIG</fr:strong>OUR, <fr:strong>CLA</fr:strong>RITY, <fr:strong>SPI</fr:strong>RIT.</fr:p>
+            <fr:p>They roll d12 + d6 for each of them and keep the results.</fr:p>
+            <fr:p>
+              <fr:ul><fr:li><fr:strong>Vig</fr:strong>our is restored by consuming Sustenance or spending a full day in warm hospitality.</fr:li>
+    <fr:li><fr:strong>Cla</fr:strong>rity is restored by consuming Stimulant or receiving guidance from a Seer.</fr:li>
+    <fr:li><fr:strong>Spi</fr:strong>rit is restored by consuming Sacrament or indulging a Passion.</fr:li></fr:ul>
+            </fr:p>
+            <fr:p>At <fr:strong>VIG</fr:strong> 0 you are Exhausted and cannot Attack if you have moved this turn.</fr:p>
+            <fr:p>At <fr:strong>CLA</fr:strong> 0 you are <fr:link type="local" href="exposed.xml" addr="exposed" title="Exposed">Exposed</fr:link>.</fr:p>
+            <fr:p>At <fr:strong>SPI</fr:strong> 0 your attacks are <fr:link type="local" href="impaired.xml" addr="impaired" title="Impaired">Impaired</fr:link>.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
