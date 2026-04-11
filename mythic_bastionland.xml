@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>283</fr:anchor>
+    <fr:anchor>285</fr:anchor>
     <fr:addr type="user">mythic_bastionland</fr:addr>
     <fr:route>mythic_bastionland.xml</fr:route>
     <fr:title text="Recap of Mythic Bastionland">Recap of Mythic Bastionland</fr:title>
@@ -43,7 +43,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>284</fr:anchor>
+            <fr:anchor>286</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Home">Home</fr:title>
@@ -70,7 +70,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>285</fr:anchor>
+            <fr:anchor>287</fr:anchor>
             <fr:addr type="user">fatigue</fr:addr>
             <fr:route>fatigue.xml</fr:route>
             <fr:title text="Fatigue">Fatigue</fr:title>
@@ -83,7 +83,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>286</fr:anchor>
+            <fr:anchor>288</fr:anchor>
             <fr:addr type="user">feats</fr:addr>
             <fr:route>feats.xml</fr:route>
             <fr:title text="Feats">Feats</fr:title>
@@ -98,7 +98,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>287</fr:anchor>
+            <fr:anchor>289</fr:anchor>
             <fr:addr type="user">gambits</fr:addr>
             <fr:route>gambits.xml</fr:route>
             <fr:title text="Gambits">Gambits</fr:title>
@@ -126,7 +126,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>288</fr:anchor>
+            <fr:anchor>290</fr:anchor>
             <fr:addr type="user">guard</fr:addr>
             <fr:route>guard.xml</fr:route>
             <fr:title text="Guard">Guard</fr:title>
@@ -140,7 +140,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>289</fr:anchor>
+            <fr:anchor>291</fr:anchor>
             <fr:addr type="user">saves</fr:addr>
             <fr:route>saves.xml</fr:route>
             <fr:title text="Saves">Saves</fr:title>
@@ -153,7 +153,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>290</fr:anchor>
+            <fr:anchor>292</fr:anchor>
             <fr:addr type="user">scar</fr:addr>
             <fr:route>scar.xml</fr:route>
             <fr:title text="Scar">Scar</fr:title>
@@ -186,7 +186,7 @@ combat, not training or bloodless duels.</fr:p>
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>291</fr:anchor>
+            <fr:anchor>293</fr:anchor>
             <fr:addr type="user">virtues</fr:addr>
             <fr:route>virtues.xml</fr:route>
             <fr:title text="Virtues">Virtues</fr:title>
