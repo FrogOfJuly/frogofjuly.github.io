@@ -33,7 +33,7 @@
     <fr:li><fr:strong>Let me try one more time</fr:strong>: When you fail a check targeted by Failed Rehearsal you can retry one more time.</fr:li>
     <fr:li><fr:strong>Cursed Joke</fr:strong>: You tell your vilest joke and sprinkle enough magic to take it inside target's head. Upon hearing it, target retracts themself from any conversation they were having or any activity they were doing. Goes to the corner or seeks solitude if the corner is unavailable and sits their in increasingly catatonic state. Target falls unconscious after 10 minutes, when woken up effect ends. Their memory preserves feeling of unpleasantness, but the content of the joke vanishes. If the target is in combat their weapons are impaired until effect ends.</fr:li></fr:ul>
     </fr:p>
-    <fr:p>Spells(2 favor)</fr:p>
+    <fr:p>Spells(3 favor)</fr:p>
     <fr:p>
       <fr:ul><fr:li><fr:strong>All doors are open for me</fr:strong>: opens any non-magically locked door</fr:li>
     <fr:li><fr:strong>Let me try one more time</fr:strong>: When you fail a check targeted by Failed Rehearsal you can retry one more time.</fr:li>
@@ -90,7 +90,7 @@
     <fr:li><fr:strong>Let me try one more time</fr:strong>: When you fail a check targeted by Failed Rehearsal you can retry one more time.</fr:li>
     <fr:li><fr:strong>Cursed Joke</fr:strong>: You tell your vilest joke and sprinkle enough magic to take it inside target's head. Upon hearing it, target retracts themself from any conversation they were having or any activity they were doing. Goes to the corner or seeks solitude if the corner is unavailable and sits their in increasingly catatonic state. Target falls unconscious after 10 minutes, when woken up effect ends. Their memory preserves feeling of unpleasantness, but the content of the joke vanishes. If the target is in combat their weapons are impaired until effect ends.</fr:li></fr:ul>
                 </fr:p>
-                <fr:p>Spells(2 favor)</fr:p>
+                <fr:p>Spells(3 favor)</fr:p>
                 <fr:p>
                   <fr:ul><fr:li><fr:strong>All doors are open for me</fr:strong>: opens any non-magically locked door</fr:li>
     <fr:li><fr:strong>Let me try one more time</fr:strong>: When you fail a check targeted by Failed Rehearsal you can retry one more time.</fr:li>
@@ -137,7 +137,7 @@
                 <fr:p>Spells(3 favor)</fr:p>
                 <fr:p>
                   <fr:ul>
-                    <fr:li><fr:strong>There is only a single path</fr:strong>: hen you go through a door you envision another door that you have traversed in the past. As long as you hold the door open it leads to the place with that other door you envisioned.</fr:li>
+                    <fr:li><fr:strong>There is only a single path</fr:strong>: When you go through a door you envision another door that you have traversed in the past. As long as you hold the door open it leads to the place with that other door you envisioned.</fr:li>
                   </fr:ul>
                 </fr:p>
               </fr:mainmatter>
