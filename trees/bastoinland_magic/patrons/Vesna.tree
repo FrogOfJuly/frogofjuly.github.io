@@ -35,7 +35,7 @@ Cantrips(does not spent favor, but stops working when you have none)
       You travel through forests as fast as a horse rider would travel on road.
     }
     \li{
-      I help, you provide: You sense local distress of the wilderness. When you resolve it, you can ask for something in return. If it could be found here it gonna be provided to you.
+      I help, you provide: You sense local distress of the wilderness. When you resolve it, you can ask for something in return. If it could be found here it's gonna be provided to you.
     }
   }
 }\p{
@@ -49,7 +49,7 @@ Cantrips(does not spent favor, but stops working when you have none)
       \strong{Tell me your story}: Talk with dead, provided you have something they owned
     }
     \li{
-      \strong{Forest, obscure me}: As long as there is enough foliage around, it shifts to provide cover, making you and maybe those with you almost impossible to find.
+      \strong{Forest, obscure me}: As long as there is enough foliage around, it shifts to provide cover, making you and maybe one of those with you almost impossible to find.
     }
   }
 }\p{
@@ -64,7 +64,7 @@ Cantrips(does not spent favor, but stops working when you have none)
       \p{
         It grows very fast and obeys your commands. Branches can grapple your enemies, fix objects and obstruct passage. 
         Without water and soil dies soon after you leave expending all its resources. 
-        For example, it takes 10 minutes to make wooden door frame impassible, but only several seconds to make a wooden door impossible to open. In combat immobilizes enemies on the round of casting and impairs weapons until escape on later turns.
+        For example, it takes 10 minutes to make wooden door frame impassible, but only several seconds to make a wooden door impossible to open. In combat immobilizes enemies on the round of casting and impairs weapons until escape(Vigor check) on later turns.
       }
     }
   }
