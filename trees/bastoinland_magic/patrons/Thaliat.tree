@@ -65,9 +65,6 @@ Cantrips(does not spent favor, but stops working when you have none)
       \strong{All doors are open for me}: opens any non-magically locked door
     }
     \li{
-      \strong{Let me try one more time}: When you fail a check targeted by Failed Rehearsal you can retry one more time. 
-    }
-    \li{
       \strong{You are an actor too}: For an hour or until harmed target thinks that they are somebody else they have strong impression of. The target acts according to their own understanding of that entity. Upon recovery they remember vaguely what happened during the effect of this spell.
     }
   }
