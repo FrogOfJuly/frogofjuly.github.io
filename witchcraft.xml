@@ -46,7 +46,6 @@
         <fr:p>Spells(3 favor)</fr:p>
         <fr:p>
           <fr:ul><fr:li><fr:strong>All doors are open for me</fr:strong>: opens any non-magically locked door</fr:li>
-    <fr:li><fr:strong>Let me try one more time</fr:strong>: When you fail a check targeted by Failed Rehearsal you can retry one more time.</fr:li>
     <fr:li><fr:strong>You are an actor too</fr:strong>: For an hour or until harmed target thinks that they are somebody else they have strong impression of. The target acts according to their own understanding of that entity. Upon recovery they remember vaguely what happened during the effect of this spell.</fr:li></fr:ul>
         </fr:p>
       </fr:mainmatter>
@@ -205,7 +204,6 @@
                     <fr:p>Spells(3 favor)</fr:p>
                     <fr:p>
                       <fr:ul><fr:li><fr:strong>All doors are open for me</fr:strong>: opens any non-magically locked door</fr:li>
-    <fr:li><fr:strong>Let me try one more time</fr:strong>: When you fail a check targeted by Failed Rehearsal you can retry one more time.</fr:li>
     <fr:li><fr:strong>You are an actor too</fr:strong>: For an hour or until harmed target thinks that they are somebody else they have strong impression of. The target acts according to their own understanding of that entity. Upon recovery they remember vaguely what happened during the effect of this spell.</fr:li></fr:ul>
                     </fr:p>
                   </fr:mainmatter>
