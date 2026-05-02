@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>245</fr:anchor>
+    <fr:anchor>252</fr:anchor>
     <fr:addr type="user">bastoinland_magic</fr:addr>
     <fr:route>bastoinland_magic.xml</fr:route>
     <fr:title text="Bastionland Magic">Bastionland Magic</fr:title>
@@ -12,7 +12,7 @@
     <fr:p>There is a unique feel to the Bastionland system of combat. Let's try to get the same feeling from casting spells.</fr:p>
     <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:anchor>246</fr:anchor>
+        <fr:anchor>253</fr:anchor>
         <fr:addr type="user">spellcasting</fr:addr>
         <fr:route>spellcasting.xml</fr:route>
         <fr:title text="Spellcasting">Spellcasting</fr:title>
@@ -29,15 +29,16 @@
     <fr:li><fr:strong>Hex</fr:strong>: curse of misfortune impairs defense and makes the target more vulnerable. Pick three dice that have a value of one. For the remaining combat, anyone who attacks the bearer of this curse can add a die from picked ones to the dice that represent an attack before rolling them. The same die can be used by multiple attacks, but only a single hex can be cast upon any one creature.</fr:li>
     <fr:li><fr:strong>True Strike</fr:strong>: Pick any number of dice, then perform an Attack as usual. You can replace any die of the attack with any die from those you picked.</fr:li>
     <fr:li><fr:strong>Thunderclap</fr:strong>: Pick any number of dice, treat them as if it was a single ranged Attack with Blast property.</fr:li>
-    <fr:li><fr:strong>Shield</fr:strong>: Pick two dice and add the smaller rolled value among them to your <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>. If the guard value exceeds it's maximum surplus persists until next time you would restore guard to full.</fr:li></fr:ul></fr:p>
+    <fr:li><fr:strong>Shield</fr:strong>: Pick two dice and add the smaller rolled value among them to your <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>. The shield's guard is spent before your own. Shield's guard persists until your own guard would be restored normally.</fr:li>
+    <fr:li><fr:strong>Detect Magic</fr:strong>: Pick any number of dice, for each one which rolled for a maximum value you can ask a question about surrounding magic and receive true answer, but the amount of words in that answer can't exceed the value rolled on the die. For each other die, the answer is either yes, no or silence if the question is not applicable. Information for the answer is provided by spells around you and yourself. For example, spells usually are not directly marked by their caster and are not aware of it's surroundings beyond the spells design.</fr:li></fr:ul></fr:p>
         <fr:p>This system becomes unwieldy very fast, as the time to check the combination for a lot of spells grows in an unpleasant way. Mythic Bastionland is suited for that, as it is very easy to have a small number of spells, as majority of them are lost and forgotten.</fr:p>
-        <fr:p>Also, to add even more agency, caster can roll any number of dice and then choose half(rounded down) and discard the rest. These picked dice can be used to cast spells as if you rolled them. They persist until chosen to be spent, but the total amount of dice can't exceed the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>Cla</fr:strong>rity</fr:link>. If it is the case at any time, discard until it is no longer the case.</fr:p>
+        <fr:p>Also, to add even more agency, when caster rolls dice to cast a spell, additionally to casting they can choose half(rounded down) of remaining dice and discard the rest. These chosen dice can be stored to cast spells later as if you rolled them. They persist until spent, but the total amount of dice(stored and unrolled) can't exceed the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>Cla</fr:strong>rity</fr:link>.</fr:p>
       </fr:mainmatter>
       <fr:backmatter />
     </fr:tree>
     <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
       <fr:frontmatter>
-        <fr:anchor>247</fr:anchor>
+        <fr:anchor>254</fr:anchor>
         <fr:addr type="user">witchcraft</fr:addr>
         <fr:route>witchcraft.xml</fr:route>
         <fr:title text="Witchcraft">Witchcraft</fr:title>
@@ -106,13 +107,13 @@
             <fr:p>Cantrips(does not spent favor, but stops working when you have none)</fr:p>
             <fr:p>
               <fr:ul><fr:li>You travel through forests as fast as a horse rider would travel on road.</fr:li>
-    <fr:li>I help, you provide: You sense local distress of the wilderness. When you resolve it, you can ask for something in return. If it could be found here it gonna be provided to you.</fr:li></fr:ul>
+    <fr:li>I help, you provide: You sense local distress of the wilderness. When you resolve it, you can ask for something in return. If it could be found here it's gonna be provided to you.</fr:li></fr:ul>
             </fr:p>
             <fr:p>Spells(1 favor)</fr:p>
             <fr:p>
               <fr:ul><fr:li><fr:strong>Be not afraid</fr:strong>: Talk with animals</fr:li>
     <fr:li><fr:strong>Tell me your story</fr:strong>: Talk with dead, provided you have something they owned</fr:li>
-    <fr:li><fr:strong>Forest, obscure me</fr:strong>: As long as there is enough foliage around, it shifts to provide cover, making you and maybe those with you almost impossible to find.</fr:li></fr:ul>
+    <fr:li><fr:strong>Forest, obscure me</fr:strong>: As long as there is enough foliage around, it shifts to provide cover, making you and maybe one of those with you almost impossible to find.</fr:li></fr:ul>
             </fr:p>
             <fr:p>Spells(2 favor)</fr:p>
             <fr:p>
@@ -120,7 +121,7 @@
     <fr:li><fr:strong>Tell me your story</fr:strong>: You put a new life into dead vegetation with your touch.
       <fr:p>It grows very fast and obeys your commands. Branches can grapple your enemies, fix objects and obstruct passage. 
         Without water and soil dies soon after you leave expending all its resources. 
-        For example, it takes 10 minutes to make wooden door frame impassible, but only several seconds to make a wooden door impossible to open. In combat immobilizes enemies on the round of casting and impairs weapons until escape on later turns.</fr:p></fr:li></fr:ul>
+        For example, it takes 10 minutes to make wooden door frame impassible, but only several seconds to make a wooden door impossible to open. In combat immobilizes enemies on the round of casting and impairs weapons until escape(Vigor check) on later turns.</fr:p></fr:li></fr:ul>
             </fr:p>
             <fr:p>Spells(3 favor)</fr:p>
             <fr:p>
@@ -128,6 +129,26 @@
                 <fr:li><fr:strong>There is only a single path</fr:strong>: When you go through a door you envision another door that you have traversed in the past. As long as you hold the door open it leads to the place with that other door you envisioned.</fr:li>
               </fr:ul>
             </fr:p>
+          </fr:mainmatter>
+          <fr:backmatter />
+        </fr:tree>
+        <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
+          <fr:frontmatter>
+            <fr:anchor>250</fr:anchor>
+            <fr:addr type="user">Aestur</fr:addr>
+            <fr:route>Aestur.xml</fr:route>
+            <fr:title text="Aestur, the ravaging spirit">Aestur, the ravaging spirit</fr:title>
+            <fr:authors>
+              <fr:author>Tatiana Zenyakina</fr:author>
+            </fr:authors>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:p>In the beginning there were stillness and staleness. The sky and the earch were solid and flat and iron. The light didn't travet though space but preserved frosen in one place and nothing was seen or heard and nobody was looking and listening. The cosmos got bored of itself.</fr:p>
+            <fr:p>But even in constant there is a change. A curious atom came into being under the iron sky. It run and played along the iron folds and collide and fall and gain velocity until the iron started to ring and sing.</fr:p>
+            <fr:p>And there was a great ramble and greate fire. The iron earth collided with the iron sky. Aestus the raveging spirit was born. The havoc ensorcelled it and Aestus got determined to destroy. With great power it broke off a mace out of the iron plane and went rampage on the universe.</fr:p>
+            <fr:p>And there were many things born in destruction. Light and sound, sand and water, fire and stars were the sparks of the great rumble. They were destroyed by Aestus in their turn.</fr:p>
+            <fr:p>But nothing was sufficient to satiate the raveging spirit. He took a handfull of dirt and made beasts, fish and people, who suffered being tossed and crushed.</fr:p>
+            <fr:p>By now we live, but soon come the day we perish under the iron mace of the Aestur. No will be spared.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
@@ -144,7 +165,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>250</fr:anchor>
+            <fr:anchor>255</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Home">Home</fr:title>

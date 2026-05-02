@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>271</fr:anchor>
+    <fr:anchor>276</fr:anchor>
     <fr:addr type="user">guard</fr:addr>
     <fr:route>guard.xml</fr:route>
     <fr:title text="Guard">Guard</fr:title>
@@ -21,7 +21,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>272</fr:anchor>
+            <fr:anchor>277</fr:anchor>
             <fr:addr type="user">exposed</fr:addr>
             <fr:route>exposed.xml</fr:route>
             <fr:title text="Exposed">Exposed</fr:title>
@@ -35,7 +35,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>273</fr:anchor>
+            <fr:anchor>278</fr:anchor>
             <fr:addr type="user">mythic_bastionland</fr:addr>
             <fr:route>mythic_bastionland.xml</fr:route>
             <fr:title text="Recap of Mythic Bastionland">Recap of Mythic Bastionland</fr:title>
@@ -71,7 +71,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>274</fr:anchor>
+            <fr:anchor>279</fr:anchor>
             <fr:addr type="user">scar</fr:addr>
             <fr:route>scar.xml</fr:route>
             <fr:title text="Scar">Scar</fr:title>
@@ -104,7 +104,7 @@ combat, not training or bloodless duels.</fr:p>
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>275</fr:anchor>
+            <fr:anchor>280</fr:anchor>
             <fr:addr type="user">spellcasting</fr:addr>
             <fr:route>spellcasting.xml</fr:route>
             <fr:title text="Spellcasting">Spellcasting</fr:title>
@@ -121,9 +121,10 @@ combat, not training or bloodless duels.</fr:p>
     <fr:li><fr:strong>Hex</fr:strong>: curse of misfortune impairs defense and makes the target more vulnerable. Pick three dice that have a value of one. For the remaining combat, anyone who attacks the bearer of this curse can add a die from picked ones to the dice that represent an attack before rolling them. The same die can be used by multiple attacks, but only a single hex can be cast upon any one creature.</fr:li>
     <fr:li><fr:strong>True Strike</fr:strong>: Pick any number of dice, then perform an Attack as usual. You can replace any die of the attack with any die from those you picked.</fr:li>
     <fr:li><fr:strong>Thunderclap</fr:strong>: Pick any number of dice, treat them as if it was a single ranged Attack with Blast property.</fr:li>
-    <fr:li><fr:strong>Shield</fr:strong>: Pick two dice and add the smaller rolled value among them to your <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>. If the guard value exceeds it's maximum surplus persists until next time you would restore guard to full.</fr:li></fr:ul></fr:p>
+    <fr:li><fr:strong>Shield</fr:strong>: Pick two dice and add the smaller rolled value among them to your <fr:link type="local" href="guard.xml" addr="guard" title="Guard">GD</fr:link>. The shield's guard is spent before your own. Shield's guard persists until your own guard would be restored normally.</fr:li>
+    <fr:li><fr:strong>Detect Magic</fr:strong>: Pick any number of dice, for each one which rolled for a maximum value you can ask a question about surrounding magic and receive true answer, but the amount of words in that answer can't exceed the value rolled on the die. For each other die, the answer is either yes, no or silence if the question is not applicable. Information for the answer is provided by spells around you and yourself. For example, spells usually are not directly marked by their caster and are not aware of it's surroundings beyond the spells design.</fr:li></fr:ul></fr:p>
             <fr:p>This system becomes unwieldy very fast, as the time to check the combination for a lot of spells grows in an unpleasant way. Mythic Bastionland is suited for that, as it is very easy to have a small number of spells, as majority of them are lost and forgotten.</fr:p>
-            <fr:p>Also, to add even more agency, caster can roll any number of dice and then choose half(rounded down) and discard the rest. These picked dice can be used to cast spells as if you rolled them. They persist until chosen to be spent, but the total amount of dice can't exceed the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>Cla</fr:strong>rity</fr:link>. If it is the case at any time, discard until it is no longer the case.</fr:p>
+            <fr:p>Also, to add even more agency, when caster rolls dice to cast a spell, additionally to casting they can choose half(rounded down) of remaining dice and discard the rest. These chosen dice can be stored to cast spells later as if you rolled them. They persist until spent, but the total amount of dice(stored and unrolled) can't exceed the value of <fr:link type="local" href="virtues.xml" addr="virtues" title="Virtues"><fr:strong>Cla</fr:strong>rity</fr:link>.</fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
@@ -138,7 +139,7 @@ combat, not training or bloodless duels.</fr:p>
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>276</fr:anchor>
+            <fr:anchor>281</fr:anchor>
             <fr:addr type="user">virtues</fr:addr>
             <fr:route>virtues.xml</fr:route>
             <fr:title text="Virtues">Virtues</fr:title>

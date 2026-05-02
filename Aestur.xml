@@ -2,45 +2,21 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>314</fr:anchor>
-    <fr:addr type="user">Vesna</fr:addr>
-    <fr:route>Vesna.xml</fr:route>
-    <fr:title text="Vesna, the passage guardian">Vesna, the passage guardian</fr:title>
-    <fr:authors />
+    <fr:anchor>245</fr:anchor>
+    <fr:addr type="user">Aestur</fr:addr>
+    <fr:route>Aestur.xml</fr:route>
+    <fr:title text="Aestur, the ravaging spirit">Aestur, the ravaging spirit</fr:title>
+    <fr:authors>
+      <fr:author>Tatiana Zenyakina</fr:author>
+    </fr:authors>
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Deep forest is her domain, where she guards gates between our world and world of the dead. Seeks to help those who are stuck in between. 
-<fr:ul><fr:li>Gives her blessings if you help scared soul to complete their journey. Cares both for people and animals alike.
-    <fr:ul><fr:li>3 favor for leading dying person to the other side</fr:li>
-      <fr:li>3 favor for supervising birth of a person, 1 for animal.</fr:li></fr:ul></fr:li>
-  <fr:li>Knows about improper burials and rewards those who make peace with the dead
-    <fr:ul><fr:li>1 favor for proper burial of a person</fr:li>
-      <fr:li>4 favor for reburial of a tormented soul</fr:li></fr:ul></fr:li></fr:ul></fr:p>
-    <fr:p>Cantrips(does not spent favor, but stops working when you have none)</fr:p>
-    <fr:p>
-      <fr:ul><fr:li>You travel through forests as fast as a horse rider would travel on road.</fr:li>
-    <fr:li>I help, you provide: You sense local distress of the wilderness. When you resolve it, you can ask for something in return. If it could be found here it's gonna be provided to you.</fr:li></fr:ul>
-    </fr:p>
-    <fr:p>Spells(1 favor)</fr:p>
-    <fr:p>
-      <fr:ul><fr:li><fr:strong>Be not afraid</fr:strong>: Talk with animals</fr:li>
-    <fr:li><fr:strong>Tell me your story</fr:strong>: Talk with dead, provided you have something they owned</fr:li>
-    <fr:li><fr:strong>Forest, obscure me</fr:strong>: As long as there is enough foliage around, it shifts to provide cover, making you and maybe one of those with you almost impossible to find.</fr:li></fr:ul>
-    </fr:p>
-    <fr:p>Spells(2 favor)</fr:p>
-    <fr:p>
-      <fr:ul><fr:li><fr:strong>They are within reach</fr:strong>: When you search for somebody you know, you can determine if this person is dead or alive and peek into their thoughts and emotions.</fr:li>
-    <fr:li><fr:strong>Tell me your story</fr:strong>: You put a new life into dead vegetation with your touch.
-      <fr:p>It grows very fast and obeys your commands. Branches can grapple your enemies, fix objects and obstruct passage. 
-        Without water and soil dies soon after you leave expending all its resources. 
-        For example, it takes 10 minutes to make wooden door frame impassible, but only several seconds to make a wooden door impossible to open. In combat immobilizes enemies on the round of casting and impairs weapons until escape(Vigor check) on later turns.</fr:p></fr:li></fr:ul>
-    </fr:p>
-    <fr:p>Spells(3 favor)</fr:p>
-    <fr:p>
-      <fr:ul>
-        <fr:li><fr:strong>There is only a single path</fr:strong>: When you go through a door you envision another door that you have traversed in the past. As long as you hold the door open it leads to the place with that other door you envisioned.</fr:li>
-      </fr:ul>
-    </fr:p>
+    <fr:p>In the beginning there were stillness and staleness. The sky and the earch were solid and flat and iron. The light didn't travet though space but preserved frosen in one place and nothing was seen or heard and nobody was looking and listening. The cosmos got bored of itself.</fr:p>
+    <fr:p>But even in constant there is a change. A curious atom came into being under the iron sky. It run and played along the iron folds and collide and fall and gain velocity until the iron started to ring and sing.</fr:p>
+    <fr:p>And there was a great ramble and greate fire. The iron earth collided with the iron sky. Aestus the raveging spirit was born. The havoc ensorcelled it and Aestus got determined to destroy. With great power it broke off a mace out of the iron plane and went rampage on the universe.</fr:p>
+    <fr:p>And there were many things born in destruction. Light and sound, sand and water, fire and stars were the sparks of the great rumble. They were destroyed by Aestus in their turn.</fr:p>
+    <fr:p>But nothing was sufficient to satiate the raveging spirit. He took a handfull of dirt and made beasts, fish and people, who suffered being tossed and crushed.</fr:p>
+    <fr:p>By now we live, but soon come the day we perish under the iron mace of the Aestur. No will be spared.</fr:p>
   </fr:mainmatter>
   <fr:backmatter>
     <fr:tree toc="false" numbered="false" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
@@ -51,7 +27,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>315</fr:anchor>
+            <fr:anchor>247</fr:anchor>
             <fr:addr type="user">witchcraft</fr:addr>
             <fr:route>witchcraft.xml</fr:route>
             <fr:title text="Witchcraft">Witchcraft</fr:title>
