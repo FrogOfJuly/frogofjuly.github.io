@@ -9,7 +9,7 @@
     <fr:authors />
   </fr:frontmatter>
   <fr:mainmatter>
-    <fr:p>Blast attacks target everybody in their area, rolling each separately.</fr:p>
+    <fr:p>Blast attacks target everybody in their area, rolling duce for each target separately.</fr:p>
   </fr:mainmatter>
   <fr:backmatter />
 </fr:tree>
