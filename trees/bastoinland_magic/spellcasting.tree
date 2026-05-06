@@ -5,17 +5,17 @@
 
  Resource is a set of d6 dice equal to the value of [\strong{Cla}rity](virtues). Each time you restore [\strong{Spi}rit](virtues) via indulging a Passion, you can regain up to two missing dice from this set.
 }\p{
- To cast a spell, a caster rolls any number of dice as an Action from that set and then decides what to cast. Only one spell can be cast per roll.
+ To cast a spell, a caster rolls any number of dice as an Action from that set and then decides what to cast. Only one spell can be cast per roll. If the spell does not state otherwise, [Smite feat](feats) is not applicable for them. 
 }\p{
- Here are some examples of purely combat spells:
+ Here are spells that one learns during mage training:
  \ul{
     \li{\strong{Heat metal}: intricate ladder of arcane pulses rapidly heats metal until it glows red hot. Pulses should be chained together carefully, pick no less than three dice with consecutive values. If it is a piece of armour, the wearer takes damage equal to the sum of chosen dice. If it is a weapon, the bearer chooses to drop it or persevere through pain, taking half of the sum of the chosen dice. Any damage from this spell ignores [GD](guard).}
     \li{\strong{Magic missile}: identical glowing bolts launch towards chosen targets, piercing bone and muscle. Pick any number of dice with the same value rolled. You can pick a different target for each bolt; it deals damage equal to the rolled value. }
     \li{\strong{Hex}: curse of misfortune impairs defense and makes the target more vulnerable. Pick three dice that have a value of one. For the remaining combat, anyone who attacks the bearer of this curse can add a die from picked ones to the dice that represent an attack before rolling them. The same die can be used by multiple attacks, but only a single hex can be cast upon any one creature. }
-    \li{\strong{True Strike}: Pick any number of dice, then perform an Attack as usual. You can replace any die of the attack with any die from those you picked. }
-    \li{\strong{Thunderclap}: Pick any number of dice, treat them as if it was a single ranged Attack with Blast property. }
-    \li{\strong{Shield}: Pick two dice and add the smaller rolled value among them to your [GD](guard). The shield's guard is spent before your own. Shield's guard persists until your own guard would be restored normally. }
-    \li{\strong{Detect Magic}: Pick any number of dice, for each one which rolled for a maximum value you can ask a question about surrounding magic and receive true answer, but the amount of words in that answer can't exceed the value rolled on the die. For each other die, the answer is either yes, no or silence if the question is not applicable. Information for the answer is provided by spells around you and yourself. For example, spells usually are not directly marked by their caster and are not aware of it's surroundings beyond the spells design. }
+    \li{\strong{True Strike}: Pick any number of dice, then perform an Attack as usual. You can replace any die of the attack with any die from those you picked. Can be used with [Smite feat](feats). }
+    \li{\strong{Thunderclap}: Raw magical power overwhelms you and in a split second you decide to channel it through yourself or discharge it at a long range. Pick any number of dice, treat them as if it was either a single ranged Attack or a melee attack with [Blast](Blast) property. If you chose melee option, always include yourself as one of its targets. If you chose ranged option you may additionally pick any one die with maximum value rolled. Discharged lightning arc jumps to another target and deals damage equal to the value of that additional die. }
+    \li{\strong{Shield}: Pick two dice and add the smaller rolled value among them to [GD](guard) of a willing creature nearby. The shield's guard is spent before theirs. Shield's guard persists until their guard would be restored normally. }
+    \li{\strong{Detect Magic}: Pick any number of dice, for each one which rolled for a maximum value you can ask a question about surrounding magic and receive truthful answer, but the amount of words in that answer can't exceed the value rolled on the die. For each other die, the answer is either yes, no or silence if the question is not applicable. Information for the answer is provided by spells around you and yourself. For example, spells usually are not directly marked by their caster and are not aware of it's surroundings beyond the spells design. }
  }
 }\p{
  This system becomes unwieldy very fast, as the time to check the combination for a lot of spells grows in an unpleasant way. Mythic Bastionland is suited for that, as it is very easy to have a small number of spells, as majority of them are lost and forgotten.
