@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>291</fr:anchor>
+    <fr:anchor>334</fr:anchor>
     <fr:addr type="user">mythic_bastionland</fr:addr>
     <fr:route>mythic_bastionland.xml</fr:route>
     <fr:title text="Recap of Mythic Bastionland">Recap of Mythic Bastionland</fr:title>
@@ -43,7 +43,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>292</fr:anchor>
+            <fr:anchor>335</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Home">Home</fr:title>
@@ -55,7 +55,8 @@
     <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/coffee_cup">Coffee trap solution</fr:link></fr:li>
     <fr:li><fr:link type="external" href="https://frogofjuly.github.io/hex-life/">Game of Life on a sphere</fr:link></fr:li>
     <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/BloodMage_DnDclass/blob/main/output/main.compressed.pdf">Blood Mage class for DnD</fr:link></fr:li>
-    <fr:li><fr:link type="local" href="bastoinland_magic.xml" addr="bastoinland_magic" title="Bastionland Magic">Magic</fr:link> for <fr:link type="local" href="mythic_bastionland.xml" addr="mythic_bastionland" title="Recap of Mythic Bastionland">Bastionland</fr:link></fr:li></fr:ul></fr:p>
+    <fr:li><fr:link type="local" href="bastoinland_magic.xml" addr="bastoinland_magic" title="Bastionland Magic">Magic</fr:link> for <fr:link type="local" href="mythic_bastionland.xml" addr="mythic_bastionland" title="Recap of Mythic Bastionland">Bastionland</fr:link></fr:li>
+    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/into_the_odd_hack/blob/main/output/Main.pdf">Hack</fr:link> of The Mythic Bastionland rules</fr:li></fr:ul></fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
@@ -70,7 +71,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>293</fr:anchor>
+            <fr:anchor>336</fr:anchor>
             <fr:addr type="user">fatigue</fr:addr>
             <fr:route>fatigue.xml</fr:route>
             <fr:title text="Fatigue">Fatigue</fr:title>
@@ -83,7 +84,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>294</fr:anchor>
+            <fr:anchor>337</fr:anchor>
             <fr:addr type="user">feats</fr:addr>
             <fr:route>feats.xml</fr:route>
             <fr:title text="Feats">Feats</fr:title>
@@ -98,7 +99,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>295</fr:anchor>
+            <fr:anchor>338</fr:anchor>
             <fr:addr type="user">gambits</fr:addr>
             <fr:route>gambits.xml</fr:route>
             <fr:title text="Gambits">Gambits</fr:title>
@@ -126,7 +127,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>296</fr:anchor>
+            <fr:anchor>339</fr:anchor>
             <fr:addr type="user">guard</fr:addr>
             <fr:route>guard.xml</fr:route>
             <fr:title text="Guard">Guard</fr:title>
@@ -140,7 +141,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>297</fr:anchor>
+            <fr:anchor>340</fr:anchor>
             <fr:addr type="user">saves</fr:addr>
             <fr:route>saves.xml</fr:route>
             <fr:title text="Saves">Saves</fr:title>
@@ -153,7 +154,7 @@
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>298</fr:anchor>
+            <fr:anchor>341</fr:anchor>
             <fr:addr type="user">scar</fr:addr>
             <fr:route>scar.xml</fr:route>
             <fr:title text="Scar">Scar</fr:title>
@@ -186,7 +187,7 @@ combat, not training or bloodless duels.</fr:p>
         </fr:tree>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>299</fr:anchor>
+            <fr:anchor>342</fr:anchor>
             <fr:addr type="user">virtues</fr:addr>
             <fr:route>virtues.xml</fr:route>
             <fr:title text="Virtues">Virtues</fr:title>

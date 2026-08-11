@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>316</fr:anchor>
+    <fr:anchor>359</fr:anchor>
     <fr:addr type="user">Vesna</fr:addr>
     <fr:route>Vesna.xml</fr:route>
     <fr:title text="Vesna, the passage guardian">Vesna, the passage guardian</fr:title>
@@ -50,7 +50,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>317</fr:anchor>
+            <fr:anchor>360</fr:anchor>
             <fr:addr type="user">witchcraft</fr:addr>
             <fr:route>witchcraft.xml</fr:route>
             <fr:title text="Witchcraft">Witchcraft</fr:title>
@@ -60,7 +60,7 @@
             <fr:p>Witches cast spell as a manifestation of favors granted them by their patrons. So, logically, there should be different patrons with different sets of spells and different ways to please them.</fr:p>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>248</fr:anchor>
+                <fr:anchor>291</fr:anchor>
                 <fr:addr type="user">Thaliat</fr:addr>
                 <fr:route>Thaliat.xml</fr:route>
                 <fr:title text="Thaliat, a laughing spirit">Thaliat, a laughing spirit</fr:title>
@@ -101,7 +101,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>249</fr:anchor>
+                <fr:anchor>292</fr:anchor>
                 <fr:addr type="user">Vesna</fr:addr>
                 <fr:route>Vesna.xml</fr:route>
                 <fr:title text="Vesna, the passage guardian">Vesna, the passage guardian</fr:title>
@@ -144,7 +144,7 @@
             </fr:tree>
             <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="false" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
               <fr:frontmatter>
-                <fr:anchor>250</fr:anchor>
+                <fr:anchor>293</fr:anchor>
                 <fr:addr type="user">Aestur</fr:addr>
                 <fr:route>Aestur.xml</fr:route>
                 <fr:title text="Aestur, the ravaging spirit">Aestur, the ravaging spirit</fr:title>

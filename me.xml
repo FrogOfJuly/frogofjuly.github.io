@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="default.xsl"?>
 <fr:tree toc="true" numbered="true" show-heading="true" show-metadata="true" expanded="true" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
   <fr:frontmatter>
-    <fr:anchor>243</fr:anchor>
+    <fr:anchor>286</fr:anchor>
     <fr:addr type="user">me</fr:addr>
     <fr:route>me.xml</fr:route>
     <fr:title text="Kirill Golubev">Kirill Golubev</fr:title>
@@ -33,7 +33,7 @@
       <fr:mainmatter>
         <fr:tree toc="true" numbered="false" show-heading="true" show-metadata="true" expanded="false" root="false" xmlns:fr="http://www.jonmsterling.com/jms-005P.xml">
           <fr:frontmatter>
-            <fr:anchor>244</fr:anchor>
+            <fr:anchor>287</fr:anchor>
             <fr:addr type="user">index</fr:addr>
             <fr:route>index.xml</fr:route>
             <fr:title text="Home">Home</fr:title>
@@ -45,7 +45,8 @@
     <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/coffee_cup">Coffee trap solution</fr:link></fr:li>
     <fr:li><fr:link type="external" href="https://frogofjuly.github.io/hex-life/">Game of Life on a sphere</fr:link></fr:li>
     <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/BloodMage_DnDclass/blob/main/output/main.compressed.pdf">Blood Mage class for DnD</fr:link></fr:li>
-    <fr:li><fr:link type="local" href="bastoinland_magic.xml" addr="bastoinland_magic" title="Bastionland Magic">Magic</fr:link> for <fr:link type="local" href="mythic_bastionland.xml" addr="mythic_bastionland" title="Recap of Mythic Bastionland">Bastionland</fr:link></fr:li></fr:ul></fr:p>
+    <fr:li><fr:link type="local" href="bastoinland_magic.xml" addr="bastoinland_magic" title="Bastionland Magic">Magic</fr:link> for <fr:link type="local" href="mythic_bastionland.xml" addr="mythic_bastionland" title="Recap of Mythic Bastionland">Bastionland</fr:link></fr:li>
+    <fr:li><fr:link type="external" href="https://github.com/FrogOfJuly/into_the_odd_hack/blob/main/output/Main.pdf">Hack</fr:link> of The Mythic Bastionland rules</fr:li></fr:ul></fr:p>
           </fr:mainmatter>
           <fr:backmatter />
         </fr:tree>
